@@ -160,6 +160,13 @@
     font-display: block;
 }
 
+.ResearchingAward {
+  margin-top: 8px;
+    //font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    color:brown;
+    font-display: block;
+}
+
 .service_node{
     margin-top: 10px;
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
