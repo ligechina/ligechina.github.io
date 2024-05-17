@@ -52,7 +52,7 @@
   float: right;
   position: absolute;
   width: 220px;
-  height: 90px;
+  height: 110px;
     margin-top: 260px;
     margin-left: 440px;
   background-image: url("../image/aiXcoder logo.png");
@@ -64,7 +64,7 @@
   float: right;
   position: absolute;
   width: 220px;
-  height: 90px;
+  height: 110px;
     margin-top: 260px;
     margin-left: 260px;
   background-image: url("../image/pku logo.png");
@@ -103,12 +103,12 @@
 .myinfo {
   //position: absolute;
   //top: 40%;
-  margin-top: 20px;
+  margin-top: 30px;
   width: 450px;
   color: #017785;
   font-size: 23px;
   font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-  line-height: 10px;
+  line-height: 6px;
 }
 .contentframe {
   margin-top: 10px;
