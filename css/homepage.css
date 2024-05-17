@@ -103,12 +103,12 @@
 .myinfo {
   //position: absolute;
   //top: 40%;
-  margin-top: 20px;
+  margin-top: 40px;
   width: 450px;
   color: #017785;
   font-size: 23px;
   font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-  line-height: 6px;
+  line-height: 4px;
 }
 .contentframe {
   margin-top: 10px;
