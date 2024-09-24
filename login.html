@@ -17,9 +17,8 @@
     </form>
 
     <script>
-        // 预设的加密后的用户名和密码哈希值
-        const storedUsernameHash = 'e3afed0047b08059d0fada10f400c1e5';  // 'user' 的 MD5 哈希值
-        const storedPasswordHash = '5f4dcc3b5aa765d61d8327deb882cf99';  // 'password' 的 MD5 哈希值
+        const storedUsernameHash = '12b9b63f1e2a13d38ab902493ca3ef76a34718b4a2db292e3793f2750a9f3994';  // 'user' 的 SHA-256 哈希值
+        const storedPasswordHash = '5e884898da28047151d0e56f8dc6292773603d0d6aabbdd0bd27ecfd74a2bf7';  // 'password' 的 SHA-256 哈希值
 
         // 将字符串转换为 SHA-256 哈希
         async function sha256(str) {
@@ -50,3 +49,4 @@
     </script>
 </body>
 </html>
+
