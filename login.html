@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <h2>Login to Access the Page</h2>
+    <form onsubmit="return checkLogin()" method="POST">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Login">
+    </form>
+
+    <script>
+        // 预设的加密后的用户名和密码哈希值
+        const storedUsernameHash = 'e3afed0047b08059d0fada10f400c1e5';  // 'user' 的 MD5 哈希值
+        const storedPasswordHash = '5f4dcc3b5aa765d61d8327deb882cf99';  // 'password' 的 MD5 哈希值
+
+        // 将字符串转换为 SHA-256 哈希
+        async function sha256(str) {
+            const encoder = new TextEncoder();
+            const data = encoder.encode(str);
+            const hash = await crypto.subtle.digest('SHA-256', data);
+            return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+
+        async function checkLogin() {
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+
+            // 将输入的用户名和密码进行哈希处理
+            const usernameHash = await sha256(username);
+            const passwordHash = await sha256(password);
+
+            // 比较哈希值是否匹配
+            if (usernameHash === storedUsernameHash && passwordHash === storedPasswordHash) {
+                alert("Login successful!");
+                window.location.href = "protected.html";  // 登录成功后重定向
+                return false;
+            } else {
+                alert("Login failed. Please try again.");
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
