@@ -8,5 +8,15 @@
 <body>
     <h2>Welcome to the Protected Page!</h2>
     <p>You have successfully logged in.</p>
+
+    <script>
+        // 检查是否已经登录
+        const isLoggedIn = localStorage.getItem('isLoggedIn');
+
+        // 如果未登录，重定向回登录页面
+        if (isLoggedIn !== 'true') {
+            window.location.href = 'index.html';
+        }
+    </script>
 </body>
 </html>

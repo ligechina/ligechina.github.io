@@ -20,7 +20,6 @@
         const storedUsernameHash = '04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb';  // 'user' 的 SHA-256 哈希值
         const storedPasswordHash = '5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8';  // 'password' 的 SHA-256 哈希值
 
-        // 将字符串转换为 SHA-256 哈希
         async function sha256(str) {
             const encoder = new TextEncoder();
             const data = encoder.encode(str);
@@ -32,14 +31,16 @@
             const username = document.getElementById("username").value;
             const password = document.getElementById("password").value;
 
-            // 将输入的用户名和密码进行哈希处理
             const usernameHash = await sha256(username);
             const passwordHash = await sha256(password);
 
-            // 比较哈希值是否匹配
             if (usernameHash === storedUsernameHash && passwordHash === storedPasswordHash) {
                 alert("Login successful!");
-                window.location.href = "Ongoing.html";  // 登录成功后重定向
+
+                // 将登录状态存储在 localStorage 中
+                localStorage.setItem('isLoggedIn', 'true');
+
+                window.location.href = "protected.html";  // 登录成功后重定向
                 return false;
             } else {
                 alert("Login failed. Please try again.");
@@ -49,4 +50,3 @@
     </script>
 </body>
 </html>
-
