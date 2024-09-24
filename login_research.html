@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        /* 设置页面的基本样式 */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* 为登录表单添加容器样式 */
+        .login-container {
+            background-color: white;
+            padding: 30px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+        }
+
+        /* 标题样式 */
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* 输入框的样式 */
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* 提交按钮的样式 */
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* 按钮的悬停效果 */
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <!-- 登录表单容器 -->
+    <div class="login-container">
+        <h2>Login to Access the Page</h2>
+        <form onsubmit="return checkLogin()" method="POST">
+            <input type="text" id="username" name="username" placeholder="Username" required><br>
+            <input type="password" id="password" name="password" placeholder="Password" required><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <script>
+        const storedUsernameHash = '9f489d31fc16a5c1404a8e457b25db405f244594ab987f87cc50980e4076ead2';  
+        const storedPasswordHash = '942296443919c9b6877812fd8497bbaca4a0a043523861a9a425517b0639d585';
+
+        async function sha256(str) {
+            const encoder = new TextEncoder();
+            const data = encoder.encode(str);
+            const hash = await crypto.subtle.digest('SHA-256', data);
+            return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+
+        async function checkLogin() {
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+
+            const usernameHash = await sha256(username);
+            const passwordHash = await sha256(password);
+
+            if (usernameHash === storedUsernameHash && passwordHash === storedPasswordHash) {
+                alert("Login successful!");
+
+                // 将登录状态存储在 localStorage 中
+                localStorage.setItem('isLoggedIn', 'true');
+
+                window.location.href = "ongoing.html";  // 登录成功后重定向
+                return false;
+            } else {
+                alert("Login failed. Please try again.");
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
