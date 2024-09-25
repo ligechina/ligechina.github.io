@@ -31,6 +31,86 @@
 .li_nav_a:hover {
   background-color: #111;
 }
+
+.namecard {
+  display: flex;               /* 使用flexbox进行水平布局 */
+  
+  align-items: center;          /* 垂直居中对齐 */
+  margin: 0 auto;
+  margin-top: 70px;
+  width: 90%;
+  height: 400px;
+  background: #fafafa;
+  padding: 0 20px;              /* 增加内边距 */
+  box-sizing: border-box;        /* 确保padding不影响总宽度 */
+}
+
+.mypic {
+  width: 300px;
+  height: 380px;
+  background-image: url("../image/Ge Li.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  flex-shrink: 0;               /* 保持图片大小 */
+}
+
+.contact {
+  flex-grow: 1;                 /* 使contact部分占据剩余空间 */
+  margin-left: 20px;
+}
+
+.name {
+  margin-top: 20px;
+  font-size: 42px;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.title {
+  margin-top: 5px;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+  font-size: 23px;
+  color: black;
+}
+
+.myinfo {
+  margin-top: 50px;
+  color: #017785;
+  font-size: 23px;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+  line-height: 0.3;
+}
+
+.pku_logo, .aiXcoder_logo {
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  flex-shrink: 0;               /* 保持logo大小 */
+}
+
+.aiXcoder_logo {
+  background-image: url("../image/aiXcoder logo.png");
+  width: 180px;
+  background-position: left;
+  height: 50px;
+}
+
+.pku_logo {
+  background-image: url("../image/pku logo.png");
+  width: 200px;
+  margin-right: 0px;           /* 与 aiXcoder_logo 保持间距 */
+  background-position: left;
+  height: 60px;
+}
+
+.logos {
+  display: flex;                /* 使用flexbox水平排列logo */
+  align-items: center;       /* 保持logo在居中对齐 */
+}
+
+
+
+/*
 .namecard {
   //position: absolute;
   margin: 0 auto;
@@ -110,6 +190,10 @@
   font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
   line-height: 4px;
 }
+*/
+
+
+
 .contentframe {
   margin-top: 10px;
   width: 100%;
