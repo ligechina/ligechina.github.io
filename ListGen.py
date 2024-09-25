@@ -1,7 +1,6 @@
 import os
 from urllib.parse import quote
 
-
 # 生成HTML内容
 def generate_html(directory, output_file="readingList.html"):
     if not os.path.exists(directory):
@@ -71,9 +70,11 @@ def generate_html(directory, output_file="readingList.html"):
         # 列出文件
         for file in files:
             file_path = os.path.join(root, file)
-            relative_path = os.path.relpath(file_path, directory)
-            url_path = quote(os.path.join(relative_root, file).replace("\\", "/"))  # 保证相对路径包含父目录信息
-            html_content += '<li><a href="{0}" target="_blank">{1}</a></li>'.format(url_path, relative_path)
+            # 拼接完整的相对路径，包括 ReadingList 目录
+            relative_path = os.path.relpath(file_path, os.path.dirname(output_file))
+            # 确保文件路径包含 ReadingList 目录
+            url_path = quote(relative_path.replace("\\", "/"))  # 转义路径并处理为URL格式
+            html_content += '<li><a href="{0}" target="_blank">{1}</a></li>'.format(url_path, file)
 
     html_content += """
         </ul>
@@ -88,6 +89,8 @@ def generate_html(directory, output_file="readingList.html"):
     print(f"HTML file generated: {output_file}")
 
 
-# 使用示例
-directory_to_list = "./ReadingList"  # 替换为你需要列出的目录路径
+# 获取与脚本文件同一目录下的ReadingList路径
+current_directory = os.path.dirname(os.path.abspath(__file__))
+directory_to_list = os.path.join(current_directory, "ReadingList")
+
 generate_html(directory_to_list)
