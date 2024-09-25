@@ -105,6 +105,7 @@
 .logos {
   display: flex;                /* 使用flexbox水平排列logo */
   align-items: center;       /* 保持logo在居中对齐 */
+  height: 100%;                   /* 使logos部分填满父容器的高度 */
 }
 
 
