@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protected Page</title>
+    <link rel="stylesheet" href="css/login.css"> <!-- 引入CSS文件 -->
+    <script src="js/login.js"></script> <!-- 引入JavaScript文件 -->
+</head>
+<body>
+
+    <h1>Protected Content</h1>
+
+    <!-- 需要访问控制的链接 -->
+    <a href="#" onclick="showLoginPopup('protected_page.html'); return false;">Access Protected Page</a>
+
+    <!-- 可选：登出按钮 -->
+    <button onclick="logout()">Logout</button>
+
+</body>
+</html>
