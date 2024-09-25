@@ -34,7 +34,6 @@
 
 .namecard {
   display: flex;               /* 使用flexbox进行水平布局 */
-  
   align-items: center;          /* 垂直居中对齐 */
   margin: 0 auto;
   margin-top: 70px;
@@ -57,17 +56,19 @@
 
 .contact {
   flex-grow: 1;                 /* 使contact部分占据剩余空间 */
-  margin-left: 20px;
+  flex-direction: column;  
 }
 
 .name {
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 42px;
+  margin-left: 10px;
   font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 
 .title {
   margin-top: 5px;
+  margin-left: 10px;
   font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
   font-size: 23px;
   color: black;
@@ -75,6 +76,7 @@
 
 .myinfo {
   margin-top: 50px;
+  margin-left: 10px;
   color: #017785;
   font-size: 23px;
   font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
@@ -82,7 +84,8 @@
 }
 
 .pku_logo, .aiXcoder_logo {
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-left: 0px;
   background-repeat: no-repeat;
   background-size: 90%;
   flex-shrink: 0;               /* 保持logo大小 */
