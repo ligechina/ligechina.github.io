@@ -1,6 +1,7 @@
 import os
 from urllib.parse import quote
 
+
 # 生成HTML内容
 def generate_html(directory, output_file="readingList.html"):
     if not os.path.exists(directory):
@@ -48,6 +49,14 @@ def generate_html(directory, output_file="readingList.html"):
             a:hover {{
                 color: #2980b9;
             }}
+            .directory {{
+                color: #2c3e50;
+                font-weight: bold;
+                margin-top: 15px;
+            }}
+            .file {{
+                color: #2c3e50;
+            }}
         </style>
     </head>
     <body>
@@ -57,6 +66,10 @@ def generate_html(directory, output_file="readingList.html"):
 
     # 遍历目录和子目录，按字母顺序排序
     for root, dirs, files in os.walk(directory):
+        # 排除隐藏的目录和文件
+        dirs[:] = [d for d in dirs if not d.startswith('.')]
+        files = [f for f in files if not f.startswith('.')]
+
         relative_root = os.path.relpath(root, directory)
 
         # 对子目录和文件进行排序
@@ -65,7 +78,7 @@ def generate_html(directory, output_file="readingList.html"):
 
         # 列出子目录
         if relative_root != ".":
-            html_content += '<li><strong>{}</strong></li>'.format(relative_root)
+            html_content += '<li class="directory"><strong>{}</strong></li>'.format(relative_root)
 
         # 列出文件
         for file in files:
@@ -74,7 +87,7 @@ def generate_html(directory, output_file="readingList.html"):
             relative_path = os.path.relpath(file_path, os.path.dirname(output_file))
             # 确保文件路径包含 ReadingList 目录
             url_path = quote(relative_path.replace("\\", "/"))  # 转义路径并处理为URL格式
-            html_content += '<li><a href="{0}" target="_blank">{1}</a></li>'.format(url_path, file)
+            html_content += '<li class="file"><a href="{0}" target="_blank">{1}</a></li>'.format(url_path, file)
 
     html_content += """
         </ul>
