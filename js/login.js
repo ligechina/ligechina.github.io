@@ -53,8 +53,8 @@ function showLoginPopup(link) {
     const hashedPassword = await hashPassword(password);
 
     // 检查用户名和哈希后的密码
-    const correctUsername = 'admin';
-    const correctPasswordHash = 'c4289629b08bc4d61411aaa6d6d4a0c3c5f8c1e848e282976e29b6bed5aeedc7'; // 'password123' 的 SHA-256 散列值
+    const correctUsername = 'seke';
+    const correctPasswordHash = '942296443919c9b6877812fd8497bbaca4a0a043523861a9a425517b0639d585'; // 'password123' 的 SHA-256 散列值
 
     if (username === correctUsername && hashedPassword === correctPasswordHash) {
       localStorage.setItem('loggedIn', 'true');

@@ -28,6 +28,21 @@
   font-variant: small-caps;
   font-size: 22px;
 }
+
+.li_nav_logout {
+  float: right;
+  margin-right: 10px;
+  display: block;
+  color: white;
+  background-color:bisque;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:'Times New Roman', Times, serif;
+  font-variant: small-caps;
+  font-size: 22px;
+}
+
 .li_nav_a:hover {
   background-color: #111;
 }
