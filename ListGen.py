@@ -56,6 +56,7 @@ def generate_html(directory, output_file="readingList.html"):
             }}
             .file {{
                 color: #2c3e50;
+                padding-left: 40px;  /* 文件名比目录缩进 */
             }}
         </style>
     </head>
@@ -80,7 +81,7 @@ def generate_html(directory, output_file="readingList.html"):
         if relative_root != ".":
             html_content += '<li class="directory"><strong>{}</strong></li>'.format(relative_root)
 
-        # 列出文件
+        # 列出文件，文件缩进
         for file in files:
             file_path = os.path.join(root, file)
             # 拼接完整的相对路径，包括 ReadingList 目录
@@ -107,3 +108,12 @@ current_directory = os.path.dirname(os.path.abspath(__file__))
 directory_to_list = os.path.join(current_directory, "ReadingList")
 
 generate_html(directory_to_list)
+
+
+# 文件列表缩进：
+#
+# 为文件名对应的 <li> 标签设置 padding-left: 20px，以使文件列表相对于目录名有适当的缩进。
+# 你可以根据需要调整 padding-left 的值来增加或减少缩进。
+#
+# CSS 类 .file 调整：
+# 通过 .file 类的 padding-left: 20px 实现文件的缩进，使文件相对于目录有视觉上的层次感。
