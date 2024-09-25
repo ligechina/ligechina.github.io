@@ -72,7 +72,7 @@ def generate_html(directory, output_file="readingList.html"):
         for file in files:
             file_path = os.path.join(root, file)
             relative_path = os.path.relpath(file_path, directory)
-            url_path = quote(relative_path.replace("\\", "/"))  # 转义路径并处理为URL格式
+            url_path = quote(os.path.join(relative_root, file).replace("\\", "/"))  # 保证相对路径包含父目录信息
             html_content += '<li><a href="{0}" target="_blank">{1}</a></li>'.format(url_path, relative_path)
 
     html_content += """
