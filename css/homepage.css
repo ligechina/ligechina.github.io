@@ -129,10 +129,10 @@
 }
 
 .ongoing {
-  background-image: url("../image/ongoing.png");
+  background-image: url("../image/ongoing.jpg");
   width: 1800px;
   background-position: left;
-  height: 500px;
+  height: 600px;
 }
 
 .logos {
