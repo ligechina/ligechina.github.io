@@ -121,10 +121,10 @@
 }
 
 .ongoing {
-  margin-top: 5px;
+  margin-top: 0px;
   margin-left: 0px;
   background-repeat: no-repeat;
-  background-size: 90%;
+  background-size: 100%;
   flex-shrink: 1;               /* 保持logo大小 */
 }
 
