@@ -120,6 +120,21 @@
   height: 60px;
 }
 
+.ongoing {
+  margin-top: 5px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  flex-shrink: 1;               /* 保持logo大小 */
+}
+
+.ongoing {
+  background-image: url("../image/ongoing.png");
+  width: 1800px;
+  background-position: left;
+  height: 500px;
+}
+
 .logos {
   display: flex;                /* 使用flexbox水平排列logo */
   align-items: center;       /* 保持logo在居中对齐 */
