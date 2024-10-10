@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\bibinfo}[2]{#2}
+
+\bibitem{Jia2024EvoCodeBench}
+\bibinfo{author}{Jia Li}, \bibinfo{author}{Ge~Li}, \bibinfo{author}{Xuanming
+  Zhang}, \bibinfo{author}{Yunfei Zhao}, \bibinfo{author}{Yihong Dong},
+  \bibinfo{author}{Zhi Jin}, \bibinfo{author}{Binhua Li}, \bibinfo{author}{Fei
+  Huang}, \bibinfo{author}{Yongbin Li}; \bibinfo{title}{EvoCodeBench: An
+  Evolving Code Generation Benchmark with Domain-Specific Evaluations};
+  \bibinfo{booktitle}{Proceedings of the 38th Annual Conference on Neural
+  Information Processing Systems (NeurIPS 2024)}; \bibinfo{address}{Vancouver,
+  Canada}, \bibinfo{month}{Dec 10-15} \bibinfo{year}{2024}.
+
+\end{thebibliography}

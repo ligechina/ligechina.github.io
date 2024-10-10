@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: references.aux
+The style file: geBibStyle.bst
+Database file #1: myPaperRefs.bib
+Warning--empty pages in Jia2024EvoCodeBench
+You've used 1 entry,
+            2579 wiz_defined-function locations,
+            587 strings with 4995 characters,
+and the built_in function-call counts, 565 in all, are:
+= -- 13
+> -- 28
+< -- 0
++ -- 10
+- -- 9
+* -- 86
+:= -- 61
+add.period$ -- 1
+call.type$ -- 1
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 56
+empty$ -- 49
+format.name$ -- 10
+if$ -- 98
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 18
+newline$ -- 12
+num.names$ -- 1
+pop$ -- 15
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 7
+stack$ -- 0
+substring$ -- 0
+swap$ -- 65
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 1
+width$ -- 2
+write$ -- 17
+(There was 1 warning)
