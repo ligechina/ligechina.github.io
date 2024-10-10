@@ -8,13 +8,13 @@
 \providecommand{\bibinfo}[2]{#2}
 
 \bibitem{Jia2024EvoCodeBench}
-\bibinfo{author}{Jia Li}, \bibinfo{author}{Ge~Li}, \bibinfo{author}{Xuanming
+\bibinfo{author}{Jia Li}, \bibinfo{author}{Ge Li}, \bibinfo{author}{Xuanming
   Zhang}, \bibinfo{author}{Yunfei Zhao}, \bibinfo{author}{Yihong Dong},
   \bibinfo{author}{Zhi Jin}, \bibinfo{author}{Binhua Li}, \bibinfo{author}{Fei
-  Huang}, \bibinfo{author}{Yongbin Li}; \bibinfo{title}{EvoCodeBench: An
+  Huang} \bibinfo{author}{Yongbin Li}; \bibinfo{title}{EvoCodeBench: An
   Evolving Code Generation Benchmark with Domain-Specific Evaluations};
   \bibinfo{booktitle}{Proceedings of the 38th Annual Conference on Neural
   Information Processing Systems (NeurIPS 2024)}; \bibinfo{address}{Vancouver,
-  Canada}, \bibinfo{month}{Dec 10-15} \bibinfo{year}{2024}.
+  Canada}, \bibinfo{month}{Dec 10-15}, \bibinfo{year}{2024}.
 
 \end{thebibliography}

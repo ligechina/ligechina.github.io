@@ -419,30 +419,23 @@ FUNCTION {format.names}
   numnames 'namesleft :=
     { namesleft #0 > }
     { s nameptr
-      "{ff~}{vv~}{ll}{, jj}"
-      format.name$
+	"{ff }{vv }{ll}{, jj}"
+	format.name$
       bibinfo bibinfo.check
       't :=
       nameptr #1 >
-        {
-          namesleft #1 >
-            { ", " * t * }
-            {
-              s nameptr "{ll}" format.name$ duplicate$ "others" =
-                { 't := }
-                { pop$ }
-              if$
-              "," *
-              t "others" =
-                {
-                  " " * bbl.etal *
-                }
-                { " " * t * }
-              if$
-            }
-          if$
-        }
-        't
+  {
+    namesleft #1 >
+      { ", " * t * }
+      {
+        % 对最后一个作者和仅有一个作者的情况
+        " " * t *
+      }
+    if$
+      }
+      {
+        t
+      }
       if$
       nameptr #1 + 'nameptr :=
       namesleft #1 - 'namesleft :=
@@ -576,7 +569,7 @@ FUNCTION {format.date}
     { swap$ 'skip$
         {
           swap$
-          " " * swap$
+          ", " * swap$
         }
       if$
       *
@@ -586,7 +579,7 @@ FUNCTION {format.date}
     'skip$
     {
       before.all 'output.state :=
-    ", " swap$ *
+      ", " swap$ *
     }
   if$
 }
@@ -875,7 +868,7 @@ FUNCTION {format.article.crossref}
   " \cite{" * crossref * "}" *
 }
 FUNCTION {format.crossref.editor}
-{ editor #1 "{vv~}{ll}" format.name$
+{ editor #1 "{ff }{vv }{ll}{, jj}" format.name$
   "editor" bibinfo.check
   editor num.names$ duplicate$
   #2 >

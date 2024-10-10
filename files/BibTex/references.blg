@@ -5,31 +5,31 @@ The style file: geBibStyle.bst
 Database file #1: myPaperRefs.bib
 Warning--empty pages in Jia2024EvoCodeBench
 You've used 1 entry,
-            2579 wiz_defined-function locations,
-            587 strings with 4995 characters,
-and the built_in function-call counts, 565 in all, are:
-= -- 13
+            2547 wiz_defined-function locations,
+            583 strings with 4979 characters,
+and the built_in function-call counts, 557 in all, are:
+= -- 11
 > -- 28
 < -- 0
 + -- 10
 - -- 9
-* -- 86
+* -- 85
 := -- 61
 add.period$ -- 1
 call.type$ -- 1
 change.case$ -- 0
 chr.to.int$ -- 0
 cite$ -- 2
-duplicate$ -- 56
+duplicate$ -- 55
 empty$ -- 49
-format.name$ -- 10
-if$ -- 98
+format.name$ -- 9
+if$ -- 96
 int.to.chr$ -- 0
 int.to.str$ -- 1
 missing$ -- 18
 newline$ -- 12
 num.names$ -- 1
-pop$ -- 15
+pop$ -- 14
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
