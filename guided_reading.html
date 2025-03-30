@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ge Li</title>
     <link href="css/homepage.css" rel="stylesheet" type="text/css">
+    <script src="js/login.js"></script> <!-- 引入JavaScript文件 -->
 </head>
 <body>
     <script>
@@ -17,14 +18,14 @@
         }
     </script>
     <div class="topmenu">
-        <ul class="ul_nav">
-          <li class="li_nav"><a class="li_nav_a" href="index.html">Home</a></li>
-          <li><a class="li_nav_a" href="index.html#Publications">Publications</a></li>
-          <li><a class="li_nav_a" href="teaching.html#Teaching">Teaching</a></li>
-          <li><a class="li_nav_a" href="services.html#Services">Services</a></li>
-          <li><a class="li_nav_a" href="login_research.html">Researching</a></li>
-          <li><a class="li_nav_a" href="login_reading.html">Guided_Reading</a></li>
-        </ul>
+      <ul class="ul_nav">
+        <li class="li_nav"><a class="li_nav_a" href="index.html">Home</a></li>
+        <li class="li_nav"><a class="li_nav_a" href="index.html#Publications">Publications</a></li>
+        <li class="li_nav"><a class="li_nav_a" href="teaching.html#Teaching">Teaching</a></li>
+        <li class="li_nav"><a class="li_nav_a" href="services.html#Services">Services</a></li>
+        <li class="li_nav"><a class="li_nav_a" href="#" onclick="showLoginPopup('ongoing.html'); return false;">Researching</a></li>
+        <li class="li_nav"><a class="li_nav_a" href="#" onclick="showLoginPopup('readingList.html'); return false;">Guided_Reading</a></li>
+      </ul>
       </div>
       <div class="namecard" id="Home">
         <div class="mypic"></div>
