@@ -70,14 +70,14 @@ body {
 }
 
 .name {
-  margin-top: 15px;
-  font-size: 42px;
+  margin-top: 50px;
+  font-size: 40px;
   margin-left: 10px;
   font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 
 .title {
-  margin-top: 5px;
+  margin-top: 0px;
   margin-left: 10px;
   font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
   font-size: 23px;
@@ -85,7 +85,7 @@ body {
 }
 
 .myinfo {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-left: 10px;
   color: #017785;
   font-size: 22px;
@@ -93,26 +93,26 @@ body {
   line-height: 1.6; /* 修复文字重叠问题 */
 }
 
-/* Logo样式 - 保持原有位置 */
+/* 在logo之间添加间隔 */
 .logos {
   display: flex;
   align-items: center;
   margin-top: 20px;
-  margin-left: 10px;
+  margin-left: 0 px;
+  gap: 20px; /* 添加logo之间的间隔 */
 }
 
 .aiXcoder_logo {
   background-image: url("../image/aiXcoder logo.png");
-  width: 180px;
+  width: 140px;
   height: 50px;
   background-repeat: no-repeat;
   background-size: contain;
-  margin-right: 20px;
 }
 
 .pku_logo {
   background-image: url("../image/pku logo.png");
-  width: 200px;
+  width: 160px;
   height: 60px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -120,6 +120,8 @@ body {
 
 /* 内容区域响应式 */
 .content {
+  text-align: justify;
+  text-justify: inter-word;
   width: 85%;
   max-width: 1200px;
   margin: 20px auto;
