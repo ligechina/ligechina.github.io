@@ -88,7 +88,7 @@ body {
   margin-top: 50px;
   margin-left: 10px;
   color: #017785;
-  font-size: 23px;
+  font-size: 22px;
   font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
   line-height: 1.6; /* 修复文字重叠问题 */
 }
