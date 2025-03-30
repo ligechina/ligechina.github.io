@@ -4,12 +4,12 @@ body {
   padding: 0;
   font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
   line-height: 1.6;
-  color: #333;
 }
 
-/* 导航菜单响应式 */
+/* 导航菜单响应式 - 保持原有样式 */
 .topmenu {
   width: 100%;
+  height: 45px;
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -21,120 +21,119 @@ body {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .li_nav {
-  margin: 0;
-  float: none;
+  margin-left: 40px;
+  float: left;
 }
 
 .li_nav_a {
+  float: left;
   display: block;
   color: white;
   text-align: center;
-  padding: 12px 10px;
+  padding: 14px 16px;
   text-decoration: none;
-  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
   font-variant: small-caps;
-  font-size: 16px;
+  font-size: 22px;
 }
 
-/* 名称卡片响应式 */
+/* 名称卡片响应式 - 保持左右布局 */
 .namecard {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap; /* 允许在小屏幕换行 */
+  align-items: flex-start;
   margin: 70px auto 0;
-  width: 95%;
-  max-width: 900px;
+  width: 90%;
+  max-width: 1200px;
   background: #fafafa;
   padding: 20px;
   box-sizing: border-box;
 }
 
 .mypic {
-  width: 200px;
-  height: 250px;
+  width: 300px;
+  height: 380px;
   background-image: url("../image/Ge Li.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
-  margin-bottom: 20px;
+  background-size: 70%;
+  flex-shrink: 0;
+  margin-right: 20px;
 }
 
 .contact {
-  width: 100%;
-  text-align: center;
+  flex: 1;
+  min-width: 300px; /* 确保在小屏幕有足够宽度 */
 }
 
 .name {
-  font-size: 28px;
-  margin: 10px 0;
-  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  margin-top: 15px;
+  font-size: 42px;
+  margin-left: 10px;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 
 .title {
-  font-size: 18px;
-  margin: 10px 0;
-  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+  font-size: 23px;
+  color: black;
 }
 
 .myinfo {
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-left: 10px;
   color: #017785;
-  font-size: 18px;
-  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-  line-height: 1.6;
-  text-align: center;
-  padding: 0 10px;
+  font-size: 23px;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+  line-height: 1.6; /* 修复文字重叠问题 */
 }
 
+/* Logo样式 - 保持原有位置 */
 .logos {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
+  align-items: center;
   margin-top: 20px;
+  margin-left: 10px;
 }
 
-.pku_logo, .aiXcoder_logo {
-  width: 120px;
-  height: 40px;
+.aiXcoder_logo {
+  background-image: url("../image/aiXcoder logo.png");
+  width: 180px;
+  height: 50px;
+  background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  margin-right: 20px;
+}
+
+.pku_logo {
+  background-image: url("../image/pku logo.png");
+  width: 200px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /* 内容区域响应式 */
 .content {
-  width: 95%;
-  max-width: 900px;
+  width: 85%;
+  max-width: 1200px;
   margin: 20px auto;
-  padding: 0 15px;
+  padding: 0 20px;
   box-sizing: border-box;
 }
 
 .content h2 {
-  font-size: 20px;
+  font-size: 18px;
   margin: 20px 0 10px;
-  text-align: left;
-  width: 100%;
-  font-weight: bold;
 }
 
-.content p, .content ul {
-  width: 100%;
-  text-align: left;
-  padding: 0;
-  margin: 0 0 15px 0;
-}
-
-.content ul.ul1 {
+.content ul {
   padding-left: 20px;
-  margin-left: 0;
-  list-style-type: disc;
 }
 
 .content li {
@@ -142,46 +141,64 @@ body {
   word-break: break-word;
 }
 
-/* 链接样式 */
-a {
-  color: #0000e9;
-  text-decoration: underline;
-}
-
 /* 移动设备特定样式 */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+  /* 导航菜单调整 */
+  .li_nav {
+    margin-left: 15px;
+  }
+  
   .li_nav_a {
-    font-size: 14px;
-    padding: 10px 8px;
+    padding: 12px 10px;
+    font-size: 18px;
   }
   
-  .name {
-    font-size: 24px;
-  }
-  
-  .title, .myinfo {
-    font-size: 16px;
+  /* 名称卡片调整为垂直布局 */
+  .namecard {
+    flex-direction: column;
+    align-items: center;
   }
   
   .mypic {
-    width: 150px;
-    height: 200px;
+    width: 250px;
+    height: 320px;
+    margin-right: 0;
+    margin-bottom: 20px;
   }
   
-  .pku_logo, .aiXcoder_logo {
-    width: 100px;
-    height: 30px;
+  .contact {
+    width: 100%;
+    text-align: center;
   }
   
+  .name {
+    font-size: 32px;
+    margin-left: 0;
+    text-align: center;
+  }
+  
+  .title, .myinfo {
+    margin-left: 0;
+    text-align: center;
+  }
+  
+  .myinfo {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  
+  .logos {
+    justify-content: center;
+    margin-left: 0;
+  }
+  
+  /* 内容区域调整 */
   .content {
+    width: 95%;
     padding: 0 10px;
   }
   
   .content h2 {
-    font-size: 18px;
-  }
-  
-  .content ul.ul1 {
-    padding-left: 15px;
+    font-size: 16px;
   }
 }
