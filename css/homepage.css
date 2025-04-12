@@ -204,6 +204,8 @@ body {
   }
   
   .content h2 {
-    font-size: 20px;
+    font-size: 20px;  /* 原为16px或18px，调整为20px */
+    margin: 25px 0 15px; /* 同时调整上下间距保持比例 */
+    font-weight: bold; /* 可选：加粗显示 */
   }
 }
