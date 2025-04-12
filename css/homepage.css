@@ -91,7 +91,7 @@ body {
   color: #017785;
   font-size: 22px;
   font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-  line-height: 1.6; /* 修复文字重叠问题 */
+  line-height: 0.5; /* 修复文字重叠问题 */
 }
 
 /* 在logo之间添加间隔 */
