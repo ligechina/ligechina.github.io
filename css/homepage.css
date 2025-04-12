@@ -169,11 +169,13 @@ body {
     width: 250px;
     height: 320px;
     margin-bottom: 5px; /* 重点修改：减小照片与姓名的间距 */
+    align-items: center; /* 确保整个卡片内容居中 */
   }
 
   .name {
     font-size: 32px;
     margin-top: 0; /* 重点修改：消除姓名上方的默认间距 */
+    align-items: center; /* 确保整个卡片内容居中 */
   }
   
   .contact {
@@ -189,6 +191,7 @@ body {
   .myinfo {
     margin-top: 30px;
     font-size: 20px;
+    align-items: center; /* 确保整个卡片内容居中 */
   }
   
   .logos {
