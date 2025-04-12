@@ -80,13 +80,14 @@ body {
 .title {
   margin-top: 0px;
   margin-left: 10px;
+  margin-bottom: 45px;    /* 新增：控制与下方信息的间距 */
   font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
   font-size: 23px;
   color: black;
 }
 
 .myinfo {
-  margin-top: 30px;
+  margin-top: 45px;
   margin-left: 10px;
   color: #017785;
   font-size: 22px;
@@ -121,7 +122,7 @@ body {
 
 /* 内容区域响应式 */
 .content {
-  font-size: 16px;
+  font-size: 18px;
   text-align: justify;
   text-justify: inter-word;
   width: 85%;
@@ -132,7 +133,7 @@ body {
 }
 
 .content h2 {
-  font-size: 18px;
+  font-size: 24px;
   margin: 20px 0 10px;
 }
 
