@@ -86,7 +86,7 @@ body {
 }
 
 .myinfo {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 10px;
   color: #017785;
   font-size: 22px;
@@ -121,7 +121,7 @@ body {
 
 /* 内容区域响应式 */
 .content {
-  font-size: 15px;
+  font-size: 16px;
   text-align: justify;
   text-justify: inter-word;
   width: 85%;
