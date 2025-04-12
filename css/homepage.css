@@ -162,23 +162,22 @@ body {
   .namecard {
     flex-direction: column;
     align-items: center;
+    margin-top: 60px; /* 顶部导航栏间距（可选调整） */
   }
-  
+
   .mypic {
     width: 250px;
     height: 320px;
-    margin-right: 0;
-    margin-bottom: 0px;
+    margin-bottom: 5px; /* 重点修改：减小照片与姓名的间距 */
+  }
+
+  .name {
+    font-size: 32px;
+    margin-top: 0; /* 重点修改：消除姓名上方的默认间距 */
   }
   
   .contact {
     width: 100%;
-    text-align: center;
-  }
-  
-  .name {
-    font-size: 32px;
-    margin-left: 0;
     text-align: center;
   }
   
