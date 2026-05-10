@@ -11,12 +11,38 @@
 .paperlist > li.paper {
     font-size: 1em;
     list-style: none;
+    line-height: 1.3;
 }
 
 .paperlist {
     list-style: none;
     padding-left: 0;
     margin-left: 0;
+}
+
+/* Keep key author highlight style consistent */
+.myname {
+    font-weight: 700;
+}
+
+/* Unify visual spacing of inline links in each reference */
+.paperlist > li.paper a {
+    margin-left: 0.28em;
+}
+
+/* Improve section hierarchy spacing */
+h2 {
+    margin: 22px 0 10px;
+}
+
+h2#Publications {
+    margin-top: 0;
+}
+
+h2[style*="display: inline"] {
+    display: inline-block !important;
+    margin-top: 24px;
+    margin-bottom: 8px;
 }
 
 .paper .citation-count,
