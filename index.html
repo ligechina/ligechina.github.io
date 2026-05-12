@@ -31,53 +31,93 @@ body {
     color: #0f172a;
 }
 
-/* ---------- Top navigation polish ---------- */
+/* ---------- Top navigation ---------- */
+/* Switch from homepage.css's `position: fixed` to `sticky` so the nav
+   occupies normal flow. When it wraps on narrow screens it no longer
+   overlaps the namecard frame underneath. */
 .topmenu {
-    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.18);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: auto;
+    min-height: 48px;
+    padding: 4px 0;
+    background:
+        linear-gradient(180deg, rgba(28, 33, 41, 0.96) 0%, rgba(20, 24, 30, 0.96) 100%);
+    backdrop-filter: saturate(180%) blur(12px);
+    -webkit-backdrop-filter: saturate(180%) blur(12px);
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.18);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
+/* Reset the legacy float-based layout and use a centered flex row */
 .ul_nav {
-    background-color: #2a2d34;
-    background-image: linear-gradient(180deg, #34373f 0%, #25282f 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    background: transparent;
+    background-image: none;
+    background-color: transparent;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4px 16px;
+    gap: 4px;
+}
+
+.ul_nav > li,
+.li_nav {
+    float: none;
+    margin-left: 0;
+    list-style: none;
 }
 
 .li_nav_a {
-    position: relative;
-    transition: background-color 0.18s ease, color 0.18s ease;
-    border-radius: 4px;
+    float: none;
+    display: inline-block;
+    padding: 8px 18px;
+    font-size: 17px;          /* tighter than the original 22px */
+    letter-spacing: 0.8px;
+    color: rgba(255, 255, 255, 0.86);
+    border-radius: 999px;     /* pill shape */
+    text-align: center;
+    transition: background-color 0.18s ease, color 0.18s ease,
+                box-shadow 0.18s ease;
 }
 
 .li_nav_a:hover {
-    background-color: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.10);
     color: #ffffff;
+    box-shadow: inset 0 0 0 1px rgba(79, 209, 197, 0.35);
     text-decoration: none;
 }
 
-.li_nav_a::after {
-    content: "";
-    position: absolute;
-    left: 16px;
-    right: 16px;
-    bottom: 6px;
-    height: 2px;
-    background: #4fd1c5;
-    border-radius: 2px;
-    transform: scaleX(0);
-    transform-origin: center;
-    transition: transform 0.2s ease;
+.li_nav_a:focus-visible {
+    outline: 2px solid #4fd1c5;
+    outline-offset: 2px;
 }
 
-.li_nav_a:hover::after {
-    transform: scaleX(1);
+/* "Home" item gets a subtle accent because it's the landing anchor */
+.li_nav .li_nav_a {
+    color: #ffffff;
+    background: rgba(79, 209, 197, 0.12);
+    box-shadow: inset 0 0 0 1px rgba(79, 209, 197, 0.35);
+}
+
+.li_nav .li_nav_a:hover {
+    background: rgba(79, 209, 197, 0.22);
 }
 
 /* ---------- Namecard / hero polish ---------- */
 .namecard {
+    align-items: center;        /* vertically center the smaller photo with text */
+    margin-top: 22px;           /* sticky nav handles the top offset; cancel homepage.css's 70px */
+    padding: 24px 28px;
     border-radius: 14px;
-    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
-    background:
-        linear-gradient(135deg, #ffffff 0%, #f4f8f9 100%);
     border: 1px solid #e7eaee;
+    background: linear-gradient(135deg, #ffffff 0%, #f4f8f9 100%);
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
     transition: box-shadow 0.2s ease;
 }
 
@@ -85,12 +125,55 @@ body {
     box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
 }
 
+/* Smaller, framed portrait (was 300x380 in homepage.css) */
 .mypic {
+    width: 200px;
+    height: 240px;
+    margin-right: 28px;
+    margin-bottom: 0;
     border-radius: 10px;
-    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.12);
     border: 4px solid #ffffff;
-    background-size: cover; /* fill the framed area cleanly */
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.12);
+    background-size: cover;
     background-position: center top;
+}
+
+/* Right-hand text column: tighter, balanced rhythm.
+   Overrides the very large margin-tops and the
+   line-height: 0.5 overlap from css/homepage.css. */
+.contact { min-width: 0; }
+
+.name {
+    margin-top: 0;
+    margin-left: 4px;
+    font-size: 32px;
+    line-height: 1.1;
+    color: #0f172a;
+}
+
+.title {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    margin-left: 4px;
+    font-size: 19px;
+    line-height: 1.25;
+    color: #017785;
+}
+
+.myinfo {
+    margin-top: 6px;
+    margin-left: 4px;
+    font-size: 16px;
+    line-height: 1.35;          /* tightened from 1.55; also fixes homepage.css's 0.5 bug */
+    color: #017785;
+}
+
+.myinfo p { margin: 0; }
+
+.logos {
+    margin-top: 14px;
+    margin-left: 4px;
+    gap: 18px;
 }
 
 .pku_logo,
@@ -103,6 +186,20 @@ body {
 .aiXcoder_logo:hover {
     transform: translateY(-2px);
     filter: saturate(1);
+}
+
+/* Stack vertically on small screens with reduced photo */
+@media screen and (max-width: 768px) {
+    .mypic {
+        width: 170px;
+        height: 204px;
+        margin-right: 0;
+        margin-bottom: 14px;
+    }
+    .name  { font-size: 28px; margin-left: 0; }
+    .title { font-size: 18px; margin-left: 0; margin-bottom: 10px; }
+    .myinfo { font-size: 16px; margin-left: 0; }
+    .logos { margin-left: 0; justify-content: center; }
 }
 
 /* ---------- Content container polish ---------- */
@@ -305,7 +402,6 @@ h2[style*="display: inline"] + a + a:hover {
 <ul class="ul_nav">
 <li class="li_nav"><a class="li_nav_a" href="#Home">Home</a></li>
 <li><a class="li_nav_a" href="index.html#Publications">Publications</a></li>
-<li><a class="li_nav_a" href="publication_manager.html">Pub Manager</a></li>
 <li><a class="li_nav_a" href="teaching.html#Teaching">Teaching</a></li>
 <li><a class="li_nav_a" href="services.html#Services">Services</a></li>
 <li><a class="li_nav_a" href="#" onclick="showLoginPopup('ongoing.html'); return false;">Researching</a>
