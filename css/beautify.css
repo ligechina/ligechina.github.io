@@ -1,0 +1,547 @@
+/* ============================================================
+   Shared beautification layer (loads on top of homepage.css).
+   Used by index.html, teaching.html, services.html,
+   ongoing.html, guided_reading.html, readingList.html.
+   Keeps the classical academic serif look and #017785 accent.
+   ============================================================ */
+
+/* ---------- Page background ---------- */
+body {
+    background:
+        radial-gradient(1200px 600px at 50% -100px,
+                        rgba(1, 119, 133, 0.07) 0%,
+                        rgba(1, 119, 133, 0) 70%),
+        linear-gradient(180deg, #fafbfc 0%, #ffffff 600px);
+    color: #1f2937;
+}
+
+::selection {
+    background: rgba(1, 119, 133, 0.18);
+    color: #0f172a;
+}
+
+/* ---------- Top navigation ---------- */
+/* Switch from homepage.css's `position: fixed` to `sticky` so the nav
+   occupies normal flow. When it wraps on narrow screens it no longer
+   overlaps the namecard frame underneath. */
+.topmenu {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: auto;
+    min-height: 48px;
+    padding: 4px 0;
+    background:
+        linear-gradient(180deg, rgba(28, 33, 41, 0.96) 0%, rgba(20, 24, 30, 0.96) 100%);
+    backdrop-filter: saturate(180%) blur(12px);
+    -webkit-backdrop-filter: saturate(180%) blur(12px);
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.18);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Reset the legacy float-based layout and use a centered flex row */
+.ul_nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    background: transparent;
+    background-image: none;
+    background-color: transparent;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4px 16px;
+    gap: 4px;
+}
+
+.ul_nav > li,
+.li_nav {
+    float: none;
+    margin-left: 0;
+    list-style: none;
+}
+
+.li_nav_a {
+    float: none;
+    display: inline-block;
+    padding: 8px 18px;
+    font-size: 17px;          /* tighter than the original 22px */
+    letter-spacing: 0.8px;
+    color: rgba(255, 255, 255, 0.86);
+    border-radius: 999px;     /* pill shape */
+    text-align: center;
+    transition: background-color 0.18s ease, color 0.18s ease,
+                box-shadow 0.18s ease;
+}
+
+.li_nav_a:hover {
+    background: rgba(255, 255, 255, 0.10);
+    color: #ffffff;
+    box-shadow: inset 0 0 0 1px rgba(79, 209, 197, 0.35);
+    text-decoration: none;
+}
+
+.li_nav_a:focus-visible {
+    outline: 2px solid #4fd1c5;
+    outline-offset: 2px;
+}
+
+/* "Home" item gets a subtle accent because it's the landing anchor */
+.li_nav .li_nav_a {
+    color: #ffffff;
+    background: rgba(79, 209, 197, 0.12);
+    box-shadow: inset 0 0 0 1px rgba(79, 209, 197, 0.35);
+}
+
+.li_nav .li_nav_a:hover {
+    background: rgba(79, 209, 197, 0.22);
+}
+
+/* ---------- Namecard / hero polish ---------- */
+.namecard {
+    align-items: center;        /* vertically center the smaller photo with text */
+    margin-top: 22px;           /* sticky nav handles the top offset; cancel homepage.css's 70px */
+    padding: 24px 28px;
+    border-radius: 14px;
+    border: 1px solid #e7eaee;
+    background: linear-gradient(135deg, #ffffff 0%, #f4f8f9 100%);
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+    transition: box-shadow 0.2s ease;
+}
+
+.namecard:hover {
+    box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+}
+
+/* Smaller, framed portrait (was 300x380 in homepage.css) */
+.mypic {
+    width: 175px;
+    height: 210px;
+    margin-right: 28px;
+    margin-bottom: 0;
+    border-radius: 10px;
+    border: 4px solid #ffffff;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.12);
+    background-size: cover;
+    background-position: center top;
+}
+
+/* Right-hand text column: tighter, balanced rhythm.
+   Overrides the very large margin-tops and the
+   line-height: 0.5 overlap from css/homepage.css. */
+.contact { min-width: 0; }
+
+.name {
+    margin-top: 0;
+    margin-left: 4px;
+    font-size: 32px;
+    line-height: 1.1;
+    color: #0f172a;
+}
+
+.title {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    margin-left: 4px;
+    font-size: 19px;
+    line-height: 1.25;
+    color: #017785;
+}
+
+.myinfo {
+    margin-top: 6px;
+    margin-left: 4px;
+    font-size: 16px;
+    line-height: 1.35;          /* tightened from 1.55; also fixes homepage.css's 0.5 bug */
+    color: #017785;
+}
+
+.myinfo p { margin: 0; }
+
+.logos {
+    margin-top: 14px;
+    margin-left: 4px;
+    gap: 18px;
+}
+
+.pku_logo,
+.aiXcoder_logo {
+    transition: transform 0.18s ease, filter 0.18s ease;
+    filter: saturate(0.95);
+}
+
+.pku_logo:hover,
+.aiXcoder_logo:hover {
+    transform: translateY(-2px);
+    filter: saturate(1);
+}
+
+/* Stack vertically on small screens with reduced photo */
+@media screen and (max-width: 768px) {
+    .mypic {
+        width: 150px;
+        height: 180px;
+        margin-right: 0;
+        margin-bottom: 14px;
+    }
+    .name  { font-size: 28px; margin-left: 0; }
+    .title { font-size: 18px; margin-left: 0; margin-bottom: 10px; }
+    .myinfo { font-size: 16px; margin-left: 0; }
+    .logos { margin-left: 0; justify-content: center; }
+}
+
+/* ---------- Content container polish ---------- */
+.content {
+    background: #ffffff;
+    border: 1px solid #ebeef2;
+    border-radius: 14px;
+    padding: 26px 36px 30px;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04);
+    /* Override homepage.css width to match the namecard rhythm */
+    width: 90%;
+    max-width: 1200px;
+    margin: 24px auto 60px;
+    box-sizing: border-box;
+}
+
+/* ---------- Section headings ---------- */
+h2 {
+    position: relative;
+    margin: 28px 0 14px;
+    padding: 4px 0 4px 14px;
+    border-left: 4px solid #017785;
+    color: #0f172a;
+    letter-spacing: 0.2px;
+}
+
+h2#Publications {
+    margin-top: 6px;
+}
+
+h2[style*="display: inline"] {
+    display: inline-block !important;
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+
+/* BibTex / BibStyle download anchors next to the inline h2 */
+h2[style*="display: inline"] + a,
+h2[style*="display: inline"] + a + a {
+    padding: 3px 10px;
+    background: #f1f5f7;
+    border: 1px solid #cfd9de;
+    border-radius: 6px;
+    color: #2f4750;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Times New Roman", serif;
+    font-size: 0.82em;
+    vertical-align: 4px;
+    text-decoration: none;
+    transition: background-color 0.15s ease, color 0.15s ease,
+                border-color 0.15s ease;
+}
+
+h2[style*="display: inline"] + a:hover,
+h2[style*="display: inline"] + a + a:hover {
+    background: #017785;
+    color: #ffffff;
+    border-color: #017785;
+    text-decoration: none;
+}
+
+/* h3 sub-headings (e.g., "Teaching Awards") */
+h3 {
+    margin: 22px 0 10px;
+    padding: 2px 0 2px 12px;
+    border-left: 3px solid #4fa6ad;
+    color: #1f2937;
+    font-size: 1.15em;
+    letter-spacing: 0.2px;
+}
+
+/* ---------- About paragraph (first .paperlist contains a <p>) ---------- */
+.content > ul.paperlist > p,
+.content > p {
+    margin: 4px 0 0;
+    color: #2c3e50;
+    line-height: 1.75;
+}
+
+/* ---------- Publication / paper list ---------- */
+.paperlist {
+    list-style: none;
+    padding-left: 0;
+    margin: 8px 0 0;
+}
+
+.paperlist > li.paper {
+    list-style: none;
+    font-size: 1em;
+    line-height: 1.55;
+    padding: 10px 14px;
+    margin: 4px 0;
+    border-radius: 8px;
+    border-left: 3px solid transparent;
+    color: #1f2937;
+    transition: background-color 0.15s ease, border-left-color 0.15s ease;
+}
+
+.paperlist > li.paper:hover {
+    background-color: #f6f9fa;
+    border-left-color: #017785;
+}
+
+.paperlist > li.paper a {
+    margin-left: 0.28em;
+    color: #1f6feb;
+    word-break: break-word;
+}
+
+.paperlist > li.paper a:hover {
+    color: #0d47c8;
+    text-decoration: underline;
+}
+
+/* ---------- Paper info tag ([arXiv 2026], [ICSE 2026], ...) ---------- */
+.paperinf {
+    display: inline-block;
+    padding: 1px 8px;
+    margin-right: 6px;
+    background: #e6f2f3;
+    color: #015862;
+    border: 1px solid #b9dde0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 0.86em;
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+    vertical-align: 1px;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+/* ---------- Author highlight ---------- */
+.myname {
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.paperlist > li.paper strong {
+    color: #0f172a;
+    font-weight: 700;
+}
+
+/* ---------- Citation count ---------- */
+.paper .citation-count,
+.paper .citation-count a {
+    font-size: 1em !important;
+}
+
+.paper .citation-count a,
+.paper a[href*="scholar.google"] {
+    color: #0a7a3b;
+}
+
+.paper .citation-count a:hover,
+.paper a[href*="scholar.google"]:hover {
+    color: #075a2c;
+}
+
+/* ---------- Preprints collapse toggle ---------- */
+.preprints-toggle-wrap {
+    margin-top: 14px;
+    text-align: center;
+}
+
+.preprints-toggle-btn {
+    border: 1px solid #cfd9de;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #017785;
+    padding: 7px 18px;
+    cursor: pointer;
+    font-size: 0.95em;
+    font-weight: 600;
+    font-family: inherit;
+    letter-spacing: 0.2px;
+    transition: background-color 0.15s ease, color 0.15s ease,
+                border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.preprints-toggle-btn:hover {
+    background: #017785;
+    color: #ffffff;
+    border-color: #017785;
+    box-shadow: 0 4px 12px rgba(1, 119, 133, 0.25);
+}
+
+/* ============================================================
+   Page-specific list styling (teaching.html, services.html)
+   ============================================================ */
+
+/* Generic content lists — soften the legacy bullets */
+.content > ul {
+    padding-left: 22px;
+    margin: 8px 0 14px;
+}
+
+.content > ul > li {
+    margin-bottom: 8px;
+    line-height: 1.55;
+}
+
+.content ul ul {
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.content a {
+    color: #1f6feb;
+    word-break: break-word;
+}
+
+.content a:hover {
+    color: #0d47c8;
+}
+
+/* Teaching tree nodes */
+.TeachingNode {
+    color: #0f172a;
+    font-weight: 600;
+}
+
+.content ul ul li:not(.TeachingNode):not(.TeachingAward) {
+    color: #2c3e50;
+    font-weight: 400;
+}
+
+/* Inline semester / year labels were authored with raw <font color="#031AF6">.
+   Repaint them with the site accent and a subtle background pill. */
+.content font[color="#031AF6"] {
+    display: inline-block;
+    margin: 4px 0 6px 22px;
+    padding: 3px 10px;
+    background: #eef5f6;
+    border: 1px solid #cfe1e3;
+    border-radius: 6px;
+    color: #015862 !important;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-size: 0.86em;
+    letter-spacing: 0.2px;
+    line-height: 1.5;
+}
+
+/* Teaching awards — card-style row that mirrors paperlist hover */
+.TeachingAward {
+    list-style: none;
+    padding: 8px 14px;
+    margin: 4px 0;
+    border-radius: 8px;
+    border-left: 3px solid transparent;
+    background: transparent;
+    color: #1f2937;
+    transition: background-color 0.15s ease, border-left-color 0.15s ease;
+}
+
+.TeachingAward:hover {
+    background-color: #f6f9fa;
+    border-left-color: #017785;
+}
+
+/* The Teaching Awards <ul> sits flush-left (no bullets) */
+.content > ul:has(> .TeachingAward) {
+    list-style: none;
+    padding-left: 4px;
+}
+
+/* Services list */
+.servicelist {
+    list-style: none;
+    padding-left: 0;
+    margin: 8px 0 0;
+}
+
+.servicelist > .service_node {
+    padding: 10px 14px;
+    margin: 4px 0;
+    border-radius: 8px;
+    border-left: 3px solid transparent;
+    color: #1f2937;
+    line-height: 1.55;
+    transition: background-color 0.15s ease, border-left-color 0.15s ease;
+}
+
+.servicelist > .service_node:hover {
+    background-color: #f6f9fa;
+    border-left-color: #017785;
+}
+
+.servicelist .service_node .service_node {
+    padding: 4px 10px;
+    margin: 2px 0;
+    background: transparent;
+    border-left: 2px solid #cfe1e3;
+    color: #2c3e50;
+}
+
+.servicelist .service_node .service_node:hover {
+    background-color: transparent;
+    border-left-color: #017785;
+}
+
+.servicelist ul {
+    list-style: none;
+    margin: 6px 0 0 8px;
+    padding-left: 0;
+}
+
+/* ============================================================
+   Ongoing page — research placeholder image
+   ============================================================ */
+.ongoing {
+    background-image: url("../image/ongoing.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    max-width: 720px;
+    aspect-ratio: 4 / 3;
+    margin: 8px auto;
+    border-radius: 10px;
+}
+
+.content .logos {
+    justify-content: center;
+}
+
+/* ============================================================
+   Responsive refinements (small-screen polish)
+   ============================================================ */
+@media screen and (max-width: 768px) {
+    .content {
+        width: 95%;
+        padding: 18px 16px 22px;
+        border-radius: 10px;
+    }
+
+    .paperlist > li.paper,
+    .servicelist > .service_node {
+        padding: 10px 10px;
+    }
+
+    h2 {
+        padding-left: 10px;
+        border-left-width: 3px;
+    }
+
+    .paperinf {
+        font-size: 0.82em;
+    }
+
+    .content > ul {
+        padding-left: 18px;
+    }
+
+    .content font[color="#031AF6"] {
+        margin-left: 0;
+    }
+}

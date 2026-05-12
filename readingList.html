@@ -1,52 +1,93 @@
-
+<!DOCTYPE html>
     <html>
     <head>
+        <meta charset="utf-8">
         <title>Guided Reading</title>
         <style>
             body {
-                font-family: 'Arial', sans-serif;
-                margin: 40px;
-                padding: 0;
-                background-color: #f4f4f4;
+                font-family: Baskerville, "Palatino Linotype", Palatino,
+                             "Century Schoolbook L", "Times New Roman", serif;
+                margin: 0;
+                padding: 40px 20px 60px;
+                background:
+                    radial-gradient(1200px 600px at 50% -100px,
+                                    rgba(1, 119, 133, 0.07) 0%,
+                                    rgba(1, 119, 133, 0) 70%),
+                    linear-gradient(180deg, #fafbfc 0%, #ffffff 600px);
+                color: #1f2937;
+                line-height: 1.6;
+            }
+            ::selection {
+                background: rgba(1, 119, 133, 0.18);
+                color: #0f172a;
             }
             h1 {
-                color: #2c3e50;
+                color: #0f172a;
                 text-align: center;
-                margin-bottom: 30px;
+                margin: 0 auto 28px;
+                padding: 6px 0 6px 16px;
+                max-width: 880px;
+                border-left: 4px solid #017785;
+                text-align: left;
+                font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, serif;
+                font-size: 28px;
+                letter-spacing: 0.2px;
             }
             ul {
                 list-style-type: none;
-                padding: 0;
-                max-width: 800px;
+                max-width: 880px;
                 margin: 0 auto;
-                background-color: #fff;
-                box-shadow: 0 0 10px rgba(0,0,0,0.1);
-                border-radius: 8px;
-                padding: 20px;
+                background: #ffffff;
+                border: 1px solid #ebeef2;
+                border-radius: 14px;
+                box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04);
+                padding: 18px 26px;
             }
             li {
-                padding: 10px;
-                border-bottom: 1px solid #ccc;
+                padding: 8px 10px;
+                border-bottom: 1px solid #eef2f4;
+                border-radius: 6px;
+                transition: background-color 0.15s ease;
+            }
+            li:hover {
+                background-color: #f6f9fa;
             }
             li:last-child {
                 border-bottom: none;
             }
             a {
                 text-decoration: none;
-                color: #3498db;
-                font-weight: bold;
+                color: #1f6feb;
+                word-break: break-word;
             }
             a:hover {
-                color: #2980b9;
+                color: #0d47c8;
+                text-decoration: underline;
             }
             .directory {
-                color: #2c3e50;
-                font-weight: bold;
-                margin-top: 15px;
+                color: #0f172a;
+                font-weight: 700;
+                margin-top: 14px;
+                padding-left: 8px;
+                border-left: 3px solid #017785;
+                background: #eef5f6;
+            }
+            .directory:hover {
+                background: #e6f2f3;
+            }
+            .directory strong {
+                font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+                letter-spacing: 0.3px;
+                color: #015862;
             }
             .file {
                 color: #2c3e50;
-                padding-left: 40px;  /* 文件名比目录缩进 */
+                padding-left: 36px;  /* 文件名比目录缩进 */
+            }
+            @media screen and (max-width: 768px) {
+                body { padding: 20px 10px 40px; }
+                ul { padding: 14px 14px; border-radius: 10px; }
+                .file { padding-left: 24px; }
             }
         </style>
     </head>
