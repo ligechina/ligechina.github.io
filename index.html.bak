@@ -3,78 +3,16 @@
 <meta charset="utf-8">
 <title>Ge Li</title>
 <link href="css/homepage.css" rel="stylesheet" type="text/css">
+<link href="css/beautify.css" rel="stylesheet" type="text/css">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <link href="css/login.css" rel="stylesheet"> <!-- 引入CSS文件 -->
 <script src="js/login.js"></script> <!-- 引入JavaScript文件 -->
-<style>
-/* Keep publication text size consistent with the top item */
-.paperlist > li.paper {
-    font-size: 1em;
-    list-style: none;
-    line-height: 1.35;
-}
-
-.paperlist {
-    list-style: none;
-    padding-left: 0;
-    margin-left: 0;
-}
-
-/* Keep key author highlight style consistent */
-.myname {
-    font-weight: 700;
-}
-
-/* Unify visual spacing of inline links in each reference */
-.paperlist > li.paper a {
-    margin-left: 0.28em;
-}
-
-/* Improve section hierarchy spacing */
-h2 {
-    margin: 22px 0 10px;
-}
-
-h2#Publications {
-    margin-top: 0;
-}
-
-h2[style*="display: inline"] {
-    display: inline-block !important;
-    margin-top: 24px;
-    margin-bottom: 8px;
-}
-
-.paper .citation-count,
-.paper .citation-count a {
-    font-size: 1em !important;
-}
-
-.preprints-toggle-wrap {
-    margin-top: 8px;
-}
-
-.preprints-toggle-btn {
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    background: #f8f9fa;
-    color: #333;
-    padding: 4px 10px;
-    cursor: pointer;
-    font-size: 0.95em;
-}
-
-.preprints-toggle-btn:hover {
-    background: #eef1f4;
-}
-</style>
 </head>
 <body>
 <div class="topmenu">
 <ul class="ul_nav">
 <li class="li_nav"><a class="li_nav_a" href="#Home">Home</a></li>
 <li><a class="li_nav_a" href="index.html#Publications">Publications</a></li>
-<li><a class="li_nav_a" href="publication_manager.html">Pub Manager</a></li>
 <li><a class="li_nav_a" href="teaching.html#Teaching">Teaching</a></li>
 <li><a class="li_nav_a" href="services.html#Services">Services</a></li>
 <li><a class="li_nav_a" href="#" onclick="showLoginPopup('ongoing.html'); return false;">Researching</a>
