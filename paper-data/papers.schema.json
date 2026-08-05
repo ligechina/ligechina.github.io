@@ -1,0 +1,181 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ligechina.github.io/paper-data/papers.schema.json",
+  "title": "Ge Li - Publication List Schema",
+  "description": "Normalized schema for storing Ge Li's publications (arXiv preprints, conference papers, journal papers) so the data can be exchanged between projects (personal homepage, CV generators, BibTeX exporters, chat assistants, etc.) and used to regenerate the exact citation-string format used on the homepage.",
+  "type": "object",
+  "required": ["generatedFrom", "lastUpdated", "papers"],
+  "properties": {
+    "generatedFrom": {
+      "type": "string",
+      "description": "Source the data was extracted from, for provenance."
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO 8601 date (YYYY-MM-DD) this file was last regenerated/synced from the source."
+    },
+    "papers": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/paper" }
+    }
+  },
+  "definitions": {
+    "paper": {
+      "type": "object",
+      "required": ["id", "type", "section", "authors", "title", "year"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Stable unique identifier. Convention: arXiv papers use \"arxiv-<id with . replaced by ->\" (e.g. \"arxiv-2511-04014\"); conference/journal papers use \"<venueShort-lowercase>-<year>-<slug-of-first-3-4-title-words>\" (e.g. \"icse-2026-sealign\")."
+        },
+        "type": {
+          "type": "string",
+          "enum": ["arxiv", "conference", "journal"],
+          "description": "Which of the three citation templates this paper uses."
+        },
+        "section": {
+          "type": "string",
+          "enum": ["Preprints", "Selected Publications", "Basic Papers on Deep Learning based Code Processing"],
+          "description": "Which section/group of the homepage publication list this entry came from."
+        },
+        "authors": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1,
+          "description": "Full author names in citation order, each as \"First Last\" (normalize any \"Last, First\" source formatting). Do NOT mark/bold the homepage owner - that styling is presentation-only."
+        },
+        "title": {
+          "type": "string",
+          "description": "Full paper title, no trailing punctuation."
+        },
+        "year": {
+          "type": "integer",
+          "description": "The year shown inside the [] index label, e.g. the 2025 in \"[arXiv 2025]\" / \"[ICSE 2026]\" / \"[TOSEM, 2025]\"."
+        },
+        "citedBy": {
+          "type": ["integer", "null"],
+          "description": "Number from the trailing \"(Cited by N)\" Google Scholar badge. null if no citation count is shown on the page."
+        },
+        "arxivId": {
+          "type": ["string", "null"],
+          "description": "e.g. \"2511.04014\". Required (non-null) when type=arxiv. Optional companion identifier for conference/journal papers that also link an arXiv preprint."
+        },
+        "arxivUrl": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "pdfUrl": {
+          "type": ["string", "null"],
+          "description": "Relative path (as used in the source href, not URL-decoded) or absolute URL to the PDF, if the homepage links one."
+        },
+        "scholarUrl": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "description": "The Google Scholar \"cited by\" link, if present."
+        },
+        "award": {
+          "type": ["string", "null"],
+          "description": "e.g. \"ACM SIGSOFT Distinguished Paper Award\". null if none."
+        },
+        "note": {
+          "type": ["string", "null"],
+          "description": "Free-text annotation that doesn't fit elsewhere, e.g. \"Findings Paper\", \"Accepted\"."
+        },
+
+        "venue": {
+          "type": "string",
+          "const": "arXiv preprint",
+          "description": "type=arxiv only."
+        },
+
+        "venueShort": {
+          "type": "string",
+          "description": "type=conference/journal only. e.g. \"ICSE\", \"TOSEM\"."
+        },
+        "venueFull": {
+          "type": "string",
+          "description": "type=conference/journal only. Full venue name, e.g. \"Proceedings of the 48th IEEE/ACM International Conference on Software Engineering\" or \"ACM Transactions on Software Engineering and Methodology\"."
+        },
+
+        "location": {
+          "type": ["object", "null"],
+          "description": "type=conference only.",
+          "properties": {
+            "city": { "type": "string" },
+            "country": { "type": "string" }
+          }
+        },
+        "dateStart": {
+          "type": ["object", "null"],
+          "description": "type=conference only. Conference start date.",
+          "properties": {
+            "month": { "type": "string", "description": "3-letter English month abbreviation, e.g. \"Apr\"." },
+            "day": { "type": "integer" }
+          }
+        },
+        "dateEnd": {
+          "type": ["object", "null"],
+          "description": "type=conference only. Conference end date (month may differ from dateStart.month, e.g. Jul 27 - Aug 1).",
+          "properties": {
+            "month": { "type": "string" },
+            "day": { "type": "integer" }
+          }
+        },
+        "eventYear": {
+          "type": ["integer", "null"],
+          "description": "type=conference only. Calendar year the conference dates fall in (normally equal to `year`)."
+        },
+
+        "volume": {
+          "type": ["integer", "null"],
+          "description": "type=journal only. From \"Vol. N\"."
+        },
+        "issue": {
+          "type": ["integer", "null"],
+          "description": "type=journal only. From \"Iss. N\" / \"No. N\"."
+        },
+        "articleNumber": {
+          "type": ["string", "null"],
+          "description": "type=journal only. Used instead of a page range for some ACM TOSEM entries, e.g. \"Article 182\"."
+        },
+        "pubDate": {
+          "type": ["object", "null"],
+          "description": "type=journal only. Publication date printed after Vol./Iss.",
+          "properties": {
+            "month": { "type": ["string", "null"] },
+            "day": { "type": ["integer", "null"] },
+            "year": { "type": "integer" }
+          }
+        },
+
+        "pages": {
+          "type": ["object", "null"],
+          "description": "conference/journal only, when a simple numeric start-end page range is given.",
+          "properties": {
+            "start": { "type": "integer" },
+            "end": { "type": "integer" }
+          }
+        },
+        "pagesText": {
+          "type": ["string", "null"],
+          "description": "Fallback raw page/locator text when it doesn't fit a clean start-end integer range (e.g. \"172101:1-172101:21\")."
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "arxiv" } } },
+          "then": { "required": ["arxivId", "arxivUrl", "venue"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "conference" } } },
+          "then": { "required": ["venueShort", "venueFull"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "journal" } } },
+          "then": { "required": ["venueShort", "venueFull"] }
+        }
+      ]
+    }
+  }
+}

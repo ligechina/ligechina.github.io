@@ -1,0 +1,4866 @@
+{
+  "generatedFrom": "index.html (Preprints, Selected Publications, Basic Papers on Deep Learning based Code Processing sections)",
+  "lastUpdated": "2026-08-05",
+  "papers": [
+    {
+      "id": "arxiv-2601-22690",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Huanyu Liu",
+        "Ge Li",
+        "Yihong Dong",
+        "Sihan Wu",
+        "Peixu Wang",
+        "Sihao Cheng",
+        "Taozhi Chen",
+        "Kechi Zhang",
+        "Hao Zhu",
+        "Tongxuan Liu"
+      ],
+      "title": "Do Transformers Have the Ability for Periodicity Generalization?",
+      "year": 2026,
+      "citedBy": null,
+      "arxivId": "2601.22690",
+      "arxivUrl": "https://arxiv.org/abs/2601.22690",
+      "pdfUrl": null,
+      "scholarUrl": null,
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2601-13240",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Xue Jiang",
+        "Ge Li",
+        "Jiaru Qian",
+        "Xianjie Shi",
+        "Chenjie Li",
+        "Hao Zhu",
+        "Ziyu Wang",
+        "Jielun Zhang",
+        "Zheyu Zhao",
+        "Lingwei Wu",
+        "Kechi Zhang",
+        "Jia Li",
+        "Wenpin Jiao",
+        "Zhi Jin",
+        "Yihong Dong"
+      ],
+      "title": "KOCO-BENCH: Can Large Language Models Leverage Domain Knowledge in Software Development?",
+      "year": 2026,
+      "citedBy": 3,
+      "arxivId": "2601.13240",
+      "arxivUrl": "https://arxiv.org/abs/2601.13240",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17439798551294395680",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2602-00066",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Zheng Fang",
+        "Yihong Dong",
+        "Lili Mou",
+        "Dongming Jin",
+        "Zhi Jin",
+        "Ge Li"
+      ],
+      "title": "IntentCoding: Amplifying User Intent in Code Generation",
+      "year": 2026,
+      "citedBy": null,
+      "arxivId": "2602.00066",
+      "arxivUrl": "https://arxiv.org/abs/2602.00066",
+      "pdfUrl": null,
+      "scholarUrl": null,
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2604-02709",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Yihong Dong",
+        "Xiaoha Jian",
+        "Xue Jiang",
+        "Xuyuan Guo",
+        "Zhiyuan Fan",
+        "Jiaru Qian",
+        "Kechi Zhang",
+        "Jia Li",
+        "Zhi Jin",
+        "Ge Li"
+      ],
+      "title": "Evaluating the Formal Reasoning Capabilities of Large Language Models through Chomsky Hierarchy",
+      "year": 2026,
+      "citedBy": null,
+      "arxivId": "2604.02709",
+      "arxivUrl": "https://arxiv.org/abs/2604.02709",
+      "pdfUrl": null,
+      "scholarUrl": null,
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2511-04014",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Hao Zhu",
+        "Jia Li",
+        "Cuiyun Gao",
+        "Jiaru Qian",
+        "Yihong Dong",
+        "Huanyu Liu",
+        "Lecheng Wang",
+        "Ziliang Wang",
+        "Xiaolong Hu",
+        "Ge Li"
+      ],
+      "title": "Specification-Guided Vulnerability Detection with Large Language Models",
+      "year": 2025,
+      "citedBy": 7,
+      "arxivId": "2511.04014",
+      "arxivUrl": "https://arxiv.org/abs/2511.04014",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6903370528801109309",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2510-18471",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Xue Jiang",
+        "Yihong Dong",
+        "Mengyang Liu",
+        "Hongyi Deng",
+        "Tian Wang",
+        "Yongding Tao",
+        "Rongyu Cao",
+        "Binhua Li",
+        "Zhi Jin",
+        "Wenpin Jiao",
+        "Fei Huang",
+        "Yongbin Li",
+        "Ge Li"
+      ],
+      "title": "CodeRL+: Improving Code Generation via Reinforcement with Execution Semantics Alignment",
+      "year": 2025,
+      "citedBy": 10,
+      "arxivId": "2510.18471",
+      "arxivUrl": "https://arxiv.org/abs/2510.18471",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8161789800560946827",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2510-18165",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Yihong Dong",
+        "Zhaoyu Ma",
+        "Xue Jiang",
+        "Zhiyuan Fan",
+        "Jiaru Qian",
+        "Yongmin Li",
+        "Jianha Xiao",
+        "Zhi Jin",
+        "Rongyu Cao",
+        "Binhua Li",
+        "Fei Huang",
+        "Yongbin Li",
+        "Ge Li"
+      ],
+      "title": "Saber: An Efficient Sampling with Adaptive Acceleration and Backtracking Enhanced Remasking for Diffusion Language Model",
+      "year": 2025,
+      "citedBy": 8,
+      "arxivId": "2510.18165",
+      "arxivUrl": "https://arxiv.org/abs/2510.18165",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4864941635918265945",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2510-09259",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Yongding Tao",
+        "Tian Wang",
+        "Yihong Dong",
+        "Huanyu Liu",
+        "Kechi Zhang",
+        "Xiaolong Hu",
+        "Ge Li"
+      ],
+      "title": "Detecting data contamination from reinforcement learning post-training for large language models",
+      "year": 2025,
+      "citedBy": 3,
+      "arxivId": "2510.09259",
+      "arxivUrl": "https://arxiv.org/abs/2510.09259",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8633433897467472486",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2509-11523",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Ziliang Wang",
+        "Ge Li",
+        "Jia Li",
+        "Hao Zhu",
+        "Zhi Jin"
+      ],
+      "title": "VulAgent: Hypothesis-Validation based Multi-Agent Vulnerability Detection",
+      "year": 2025,
+      "citedBy": 1,
+      "arxivId": "2509.11523",
+      "arxivUrl": "https://arxiv.org/abs/2509.11523",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15896523810638326847",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2508-07809",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Huanyu Liu",
+        "Jia Li",
+        "Chang Yu",
+        "Taozhi Chen",
+        "Yihong Dong",
+        "Lecheng Wang",
+        "XiaoLong Hu",
+        "Ge Li"
+      ],
+      "title": "Evocot: Overcoming the exploration bottleneck in reinforcement learning",
+      "year": 2025,
+      "citedBy": 3,
+      "arxivId": "2508.07809",
+      "arxivUrl": "https://arxiv.org/abs/2508.07809",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1409878088351649511",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2508-00083",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Yihong Dong",
+        "Xue Jiang",
+        "Jiaru Qian",
+        "Tian Wang",
+        "Kechi Zhang",
+        "Zhi Jin",
+        "Ge Li"
+      ],
+      "title": "A Survey on Code Generation with LLM-based Agents",
+      "year": 2025,
+      "citedBy": 78,
+      "arxivId": "2508.00083",
+      "arxivUrl": "https://arxiv.org/abs/2508.00083",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7337704227375584156",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2503-04359",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Jia Li",
+        "Xuyuan Guo",
+        "Lei Li",
+        "Kechi Zhang",
+        "Ge Li",
+        "Zhengwei Tao",
+        "Fang Liu",
+        "Chongyang Tao",
+        "Yuqi Zhu",
+        "Zhi Jin"
+      ],
+      "title": "LONGCODEU: Benchmarking Long-Context Language Models on Long Code Understanding",
+      "year": 2025,
+      "citedBy": 14,
+      "arxivId": "2503.04359",
+      "arxivUrl": "https://arxiv.org/abs/2503.04359",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12236359998315825621",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2506-17125",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Xue Jiang",
+        "Yihong Dong",
+        "Zheng Fang",
+        "Yingwei Ma",
+        "Tangxinyu Wang",
+        "Rongyu Cao",
+        "Binhua Li",
+        "Zhi Jin",
+        "Wenpin Jiao",
+        "Yongbin Li",
+        "Ge Li"
+      ],
+      "title": "Large Language Model Unlearning for Source Code",
+      "year": 2025,
+      "citedBy": 1,
+      "arxivId": "2506.17125",
+      "arxivUrl": "https://arxiv.org/abs/2506.17125",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13604073051426366288",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2506-02658",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Kechi Zhang",
+        "Ge Li",
+        "Jia Li",
+        "Huangzhao Zhang",
+        "Jingjing Xu",
+        "Hao Zhu",
+        "Lecheng Wang",
+        "Yihong Dong",
+        "Jing Mai",
+        "Bin Gu",
+        "Zhi Jin"
+      ],
+      "title": "Computational Thinking Reasoning in Large Language Models",
+      "year": 2025,
+      "citedBy": 5,
+      "arxivId": "2506.02658",
+      "arxivUrl": "https://arxiv.org/abs/2506.02658",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2147293737587138863",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2503-15341",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Yuqi Zhu",
+        "Ge Li",
+        "Xue Jiang",
+        "Jia Li",
+        "Hong Mei",
+        "Zhi Jin",
+        "Yihong Dong"
+      ],
+      "title": "Uncertainty-Guided Chain-of-Thought for Code Generation with LLMs",
+      "year": 2025,
+      "citedBy": 31,
+      "arxivId": "2503.15341",
+      "arxivUrl": "https://arxiv.org/pdf/2503.15341",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15218041727249303368",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2504-10046",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Jia Li",
+        "Xianjie Shi",
+        "Kechi Zhang",
+        "Lei Li",
+        "Ge Li",
+        "Zhengwei Tao",
+        "Fang Liu",
+        "Chongyang Tao",
+        "Zhi Jin"
+      ],
+      "title": "CodeRAG: Supportive Code Retrieval on Bigraph for Real-World Code Generation",
+      "year": 2025,
+      "citedBy": 13,
+      "arxivId": "2504.10046",
+      "arxivUrl": "https://arxiv.org/pdf/2504.10046",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14720281153510071392",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2412-14872",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Lecheng Wang",
+        "Xianjie Shi",
+        "Ge Li",
+        "Jia Li",
+        "Yihong Dong",
+        "Xuanming Zhang",
+        "Wenpin Jiao",
+        "Hong Mei"
+      ],
+      "title": "Why Language Models Collapse When Trained on Recursively Generated Text",
+      "year": 2024,
+      "citedBy": 1,
+      "arxivId": "2412.14872",
+      "arxivUrl": "https://arxiv.org/abs/2412.14872",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18432900187322743094",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2410-03351",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Jia Li",
+        "Ge Li",
+        "Lecheng Wang",
+        "Hao Zhu",
+        "Zhi Jin"
+      ],
+      "title": "Generating Equivalent Representations of Code By A Self-Reflection Approach",
+      "year": 2024,
+      "citedBy": 5,
+      "arxivId": "2410.03351",
+      "arxivUrl": "https://arxiv.org/abs/2410.03351",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1390657844510261600",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2403-00046",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Xue Jiang",
+        "Yihong Dong",
+        "Zhi Jin",
+        "Ge Li"
+      ],
+      "title": "SEED: Customize Large Language Models with Sample-Efficient Adaptation for Code Generation",
+      "year": 2024,
+      "citedBy": 6,
+      "arxivId": "2403.00046",
+      "arxivUrl": "https://arxiv.org/abs/2403.00046",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15151453715030596900",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2305-04032",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Kechi Zhang",
+        "Ge Li",
+        "Jia Li",
+        "Zhuo Li",
+        "Zhi Jin"
+      ],
+      "title": "ToolCoder: Teach Code Generation Models to Use API Search Tool",
+      "year": 2023,
+      "citedBy": 75,
+      "arxivId": "2305.04032",
+      "arxivUrl": "https://arxiv.org/abs/2305.04032",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8999169128688149784",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2311-00272",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Zejun Wang",
+        "Jia Li",
+        "Ge Li",
+        "Zhi Jin"
+      ],
+      "title": "ChatCoder: Chat-based Refine Requirement Improves LLMs' Code Generation",
+      "year": 2023,
+      "citedBy": null,
+      "arxivId": "2311.00272",
+      "arxivUrl": "https://arxiv.org/abs/2311.00272",
+      "pdfUrl": null,
+      "scholarUrl": null,
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-2207-08466",
+      "type": "arxiv",
+      "section": "Preprints",
+      "authors": [
+        "Kechi Zhang",
+        "Ge Li",
+        "Zhi Jin"
+      ],
+      "title": "What Does Transformer Learn About Source Code?",
+      "year": 2022,
+      "citedBy": 12,
+      "arxivId": "2207.08466",
+      "arxivUrl": "https://arxiv.org/abs/2207.08466",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3542087855640985564",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "icse-2026-sealign-alignment-training",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Kechi Zhang",
+        "Huangzhao Zhang",
+        "Ge Li",
+        "Jinliang You",
+        "Jia Li",
+        "Yunfei Zhao",
+        "Zhi Jin"
+      ],
+      "title": "SEAlign: Alignment Training for Software Engineering Agent",
+      "year": 2026,
+      "citedBy": 6,
+      "arxivId": "2503.18455",
+      "arxivUrl": "https://arxiv.org/abs/2503.18455",
+      "pdfUrl": "My%20Papers/ICSE%202026%20-%20SEAlign-%20Alignment%20Training%20for%20Software%20Engineering%20Agent.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13020159365704232745",
+      "award": "ACM SIGSOFT Distinguished Paper Award",
+      "note": null,
+      "venueShort": "ICSE",
+      "venueFull": "Proceedings of the 48th IEEE/ACM International Conference on Software Engineering",
+      "location": {
+        "city": "Rio de Janeiro",
+        "country": "Brazil"
+      },
+      "dateStart": {
+        "month": "Apr",
+        "day": 12
+      },
+      "dateEnd": {
+        "month": "Apr",
+        "day": 18
+      },
+      "eventYear": 2026,
+      "pages": null
+    },
+    {
+      "id": "icse-2026-adaptrack-constrained-decoding-without",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yongmin Li",
+        "Jia Li",
+        "Ge Li",
+        "Zhi Jin"
+      ],
+      "title": "AdapTrack: Constrained Decoding without Distorting LLM's Output Intent",
+      "year": 2026,
+      "citedBy": 1,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My%20Papers/ICSE%202026%20-%20AdapTrack-%20Constrained%20Decoding%20without%20Distorting%20LLM%27s%20Output%20Intent.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7514798739472899459",
+      "award": null,
+      "note": null,
+      "venueShort": "ICSE",
+      "venueFull": "Proceedings of the 48th IEEE/ACM International Conference on Software Engineering",
+      "location": {
+        "city": "Rio de Janeiro",
+        "country": "Brazil"
+      },
+      "dateStart": {
+        "month": "Apr",
+        "day": 12
+      },
+      "dateEnd": {
+        "month": "Apr",
+        "day": 18
+      },
+      "eventYear": 2026,
+      "pages": null
+    },
+    {
+      "id": "iclr-2026-detecting-data-contamination",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yongding Tao",
+        "Tian Wang",
+        "Yihong Dong",
+        "Huanyu Liu",
+        "Kechi Zhang",
+        "Xiaolong Hu",
+        "Ge Li"
+      ],
+      "title": "Detecting Data Contamination from Reinforcement Learning Post-training for Large Language Models",
+      "year": 2026,
+      "citedBy": 4,
+      "arxivId": "2510.09259",
+      "arxivUrl": "https://arxiv.org/abs/2510.09259",
+      "pdfUrl": "My%20Papers/ICLR%202026%20-%20Detecting%20Data%20Contamination%20from%20Reinforcement%20Learning%20Post-training%20for%20Large%20Language%20Models.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8633433897467472486",
+      "award": null,
+      "note": null,
+      "venueShort": "ICLR",
+      "venueFull": "Proceedings of the Fourteenth International Conference on Learning Representations",
+      "location": {
+        "city": "Rio de Janeiro",
+        "country": "Brazil"
+      },
+      "dateStart": {
+        "month": "Apr",
+        "day": 23
+      },
+      "dateEnd": {
+        "month": "Apr",
+        "day": 27
+      },
+      "eventYear": 2026,
+      "pages": null
+    },
+    {
+      "id": "fse-2026-vulinstruct-teaching-llms-root-cause",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Hao Zhu",
+        "Jia Li",
+        "Cuiyun Gao",
+        "Jiaru Qian",
+        "Yihong Dong",
+        "Huanyu Liu",
+        "Lecheng Wang",
+        "Ziliang Wang",
+        "Xiaolong Hu",
+        "Ge Li"
+      ],
+      "title": "VulInstruct: Teaching LLMs Root-Cause Reasoning for Vulnerability Detection via Security Specifications",
+      "year": 2026,
+      "citedBy": null,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": null,
+      "scholarUrl": null,
+      "award": null,
+      "note": null,
+      "venueShort": "FSE",
+      "venueFull": "Proceedings of the ACM International Conference on the Foundations of Software Engineering",
+      "location": {
+        "city": "Montreal",
+        "country": "Canada"
+      },
+      "dateStart": {
+        "month": "Jul",
+        "day": 5
+      },
+      "dateEnd": {
+        "month": "Jul",
+        "day": 9
+      },
+      "eventYear": 2026,
+      "pages": null
+    },
+    {
+      "id": "fse-2026-influence-aware-bayesian-inspired-token-reweighting",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yuqi Zhu",
+        "Ge Li",
+        "Hong Mei",
+        "Zhi Jin",
+        "Jia Li",
+        "Qibin Zheng",
+        "Jieyuan Zhang"
+      ],
+      "title": "Influence-Aware Bayesian-Inspired Token Reweighting for Improved Code Generation",
+      "year": 2026,
+      "citedBy": null,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": null,
+      "scholarUrl": null,
+      "award": null,
+      "note": null,
+      "venueShort": "FSE",
+      "venueFull": "Proceedings of the ACM International Conference on the Foundations of Software Engineering",
+      "location": {
+        "city": "Montreal",
+        "country": "Canada"
+      },
+      "dateStart": {
+        "month": "Jul",
+        "day": 5
+      },
+      "dateEnd": {
+        "month": "Jul",
+        "day": 9
+      },
+      "eventYear": 2026,
+      "pages": null
+    },
+    {
+      "id": "acl-2026-saber-efficient-sampling",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yihong Dong",
+        "Zhaoyu Ma",
+        "Xue Jiang",
+        "Zhiyuan Fan",
+        "Jiaru Qian",
+        "Yongmin Li",
+        "Jianha Xiao",
+        "Zhi Jin",
+        "Rongyu Cao",
+        "Binhua Li",
+        "Fei Huang",
+        "Yongbin Li",
+        "Ge Li"
+      ],
+      "title": "Saber: Efficient Sampling with Adaptive Acceleration and Backtracking Enhanced Remasking for Diffusion Language Model in Code Generation",
+      "year": 2026,
+      "citedBy": null,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": null,
+      "scholarUrl": null,
+      "award": null,
+      "note": null,
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "San Diego",
+        "country": "California, USA"
+      },
+      "dateStart": {
+        "month": "Jul",
+        "day": 2
+      },
+      "dateEnd": {
+        "month": "Jul",
+        "day": 7
+      },
+      "eventYear": 2026,
+      "pages": null
+    },
+    {
+      "id": "acl-2026-rl-plus-countering-capability-boundary",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yihong Dong",
+        "Xue Jiang",
+        "Yongding Tao",
+        "Huanyu Liu",
+        "Kechi Zhang",
+        "Lili Mou",
+        "Rongyu Cao",
+        "Yingwei Ma",
+        "Jue Chen",
+        "Binhua Li",
+        "Zhi Jin",
+        "Fei Huang",
+        "Yongbin Li",
+        "Ge Li"
+      ],
+      "title": "Rl-plus: Countering Capability Boundary Collapse of LLMs in Reinforcement Learning with Hybrid-policy Optimization",
+      "year": 2026,
+      "citedBy": 18,
+      "arxivId": "2508.00222",
+      "arxivUrl": "https://arxiv.org/abs/2508.00222",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7760604577693612246",
+      "award": null,
+      "note": null,
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "San Diego",
+        "country": "California, USA"
+      },
+      "dateStart": {
+        "month": "Jul",
+        "day": 2
+      },
+      "dateEnd": {
+        "month": "Jul",
+        "day": 7
+      },
+      "eventYear": 2026,
+      "pages": null
+    },
+    {
+      "id": "acl-2026-coderl-improving-code-generation",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Xue Jiang",
+        "Yihong Dong",
+        "Mengyang Liu",
+        "Hongyi Deng",
+        "Tian Wang",
+        "Yongding Tao",
+        "Rongyu Cao",
+        "Binhua Li",
+        "Zhi Jin",
+        "Wenpin Jiao",
+        "Fei Huang",
+        "Yongbin Li",
+        "Ge Li"
+      ],
+      "title": "CODERL+: Improving Code Generation via Reinforcement with Execution Semantics Alignment",
+      "year": 2026,
+      "citedBy": 10,
+      "arxivId": "2510.18471",
+      "arxivUrl": "https://arxiv.org/abs/2510.18471",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8161789800560946827",
+      "award": null,
+      "note": null,
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "San Diego",
+        "country": "California, USA"
+      },
+      "dateStart": {
+        "month": "Jul",
+        "day": 2
+      },
+      "dateEnd": {
+        "month": "Jul",
+        "day": 7
+      },
+      "eventYear": 2026,
+      "pages": null
+    },
+    {
+      "id": "acl-2026-koco-bench-can-large-language",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Xue Jiang",
+        "Ge Li",
+        "Jiaru Qian",
+        "Xianjie Shi",
+        "Chenjie Li",
+        "Hao Zhu",
+        "Ziyu Wang",
+        "Jielun Zhang",
+        "Zheyu Zhao",
+        "Lingwei Wu",
+        "Kechi Zhang",
+        "Jia Li",
+        "Wenpin Jiao",
+        "Zhi Jin",
+        "Yihong Dong"
+      ],
+      "title": "KOCO-BENCH: Can Large Language Models Leverage Domain Knowledge in Software Development?",
+      "year": 2026,
+      "citedBy": 3,
+      "arxivId": "2601.13240",
+      "arxivUrl": "https://arxiv.org/abs/2601.13240",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17439798551294395680",
+      "award": null,
+      "note": null,
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "San Diego",
+        "country": "California, USA"
+      },
+      "dateStart": {
+        "month": "Jul",
+        "day": 2
+      },
+      "dateEnd": {
+        "month": "Jul",
+        "day": 7
+      },
+      "eventYear": 2026,
+      "pages": null
+    },
+    {
+      "id": "acl-2026-intentcoding-amplifying-user-intent",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Zheng Fang",
+        "Yihong Dong",
+        "Lili Mou",
+        "Dongming Jin",
+        "Zhi Jin",
+        "Ge Li"
+      ],
+      "title": "IntentCoding: Amplifying User Intent in Code Generation",
+      "year": 2026,
+      "citedBy": null,
+      "arxivId": "2602.00066",
+      "arxivUrl": "https://arxiv.org/abs/2602.00066",
+      "pdfUrl": null,
+      "scholarUrl": null,
+      "award": null,
+      "note": "Findings Paper",
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "San Diego",
+        "country": "California, USA"
+      },
+      "dateStart": {
+        "month": "Jul",
+        "day": 2
+      },
+      "dateEnd": {
+        "month": "Jul",
+        "day": 7
+      },
+      "eventYear": 2026,
+      "pages": null
+    },
+    {
+      "id": "acl-2026-evocot-overcoming-the-exploration",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Huanyu Liu",
+        "Jia Li",
+        "Chang Yu",
+        "Taozhi Chen",
+        "Yihong Dong",
+        "Lecheng Wang",
+        "Yongding Tao",
+        "Xiaolong Hu",
+        "Ge Li"
+      ],
+      "title": "EvoCoT: Overcoming the Exploration Bottleneck in Reinforcement Learning",
+      "year": 2026,
+      "citedBy": 3,
+      "arxivId": "2508.07809",
+      "arxivUrl": "https://arxiv.org/abs/2508.07809",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1409878088351649511",
+      "award": null,
+      "note": "Findings Paper",
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "San Diego",
+        "country": "California, USA"
+      },
+      "dateStart": {
+        "month": "Jul",
+        "day": 2
+      },
+      "dateEnd": {
+        "month": "Jul",
+        "day": 7
+      },
+      "eventYear": 2026,
+      "pages": null
+    },
+    {
+      "id": "scis-2026-learning-to-represent-code",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Fang Liu",
+        "Ge Li",
+        "Qianhui Zhao",
+        "Li Zhang"
+      ],
+      "title": "Learning to Represent Code Semantics",
+      "year": 2026,
+      "citedBy": null,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2025 - SCIS - Learning to Represent Code Semantics.pdf",
+      "scholarUrl": null,
+      "award": null,
+      "note": null,
+      "venueShort": "SCIS",
+      "venueFull": "Science China Information Sciences",
+      "volume": 68,
+      "issue": 7,
+      "articleNumber": null,
+      "pubDate": {
+        "month": "Jul",
+        "day": null,
+        "year": 2025
+      },
+      "pages": null,
+      "pagesText": "172101:1-172101:21"
+    },
+    {
+      "id": "neurips-2025-recursive-transformer-boosting-reasoning",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Kechi Zhang",
+        "Ge Li",
+        "Huangzhao Zhang",
+        "Yihong Dong",
+        "Jia Li",
+        "Jingjing Xu",
+        "Zhi Jin"
+      ],
+      "title": "Recursive Transformer: Boosting Reasoning Ability with State Stack",
+      "year": 2025,
+      "citedBy": null,
+      "arxivId": "2507.15343",
+      "arxivUrl": "https://arxiv.org/abs/2507.15343",
+      "pdfUrl": "My%20Papers/NeurIPS%202025%20-%20Recursive%20Transformer-%20Boosting%20Reasoning%20Ability%20with%20State%20Stack.pdf",
+      "scholarUrl": null,
+      "award": null,
+      "note": null,
+      "venueShort": "NeurIPS",
+      "venueFull": "Proceedings of the 39th Annual Conference on Neural Information Processing Systems",
+      "location": {
+        "city": "San Diego",
+        "country": "CA, USA"
+      },
+      "dateStart": {
+        "month": "Dec",
+        "day": 2
+      },
+      "dateEnd": {
+        "month": "Dec",
+        "day": 7
+      },
+      "eventYear": 2025,
+      "pages": {
+        "start": 92013,
+        "end": 92037
+      }
+    },
+    {
+      "id": "neurips-2025-saturn-sat-based-reinforcement-learning",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Huanyu Liu",
+        "Ge Li",
+        "Jia Li",
+        "Hao Zhu",
+        "Kechi Zhang",
+        "Yihong Dong"
+      ],
+      "title": "SATURN: SAT-based Reinforcement Learning to Unleash LLMs Reasoning",
+      "year": 2025,
+      "citedBy": 1,
+      "arxivId": "2505.16368",
+      "arxivUrl": "https://arxiv.org/abs/2505.16368",
+      "pdfUrl": "My%20Papers/NeurIPS%202025%20-%20SATURN-%20SAT-based%20Reinforcement%20Learning%20to%20Unleash%20LLMs%20Reasoning.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9035206650349525882",
+      "award": null,
+      "note": null,
+      "venueShort": "NeurIPS",
+      "venueFull": "Proceedings of the 39th Annual Conference on Neural Information Processing Systems",
+      "location": {
+        "city": "San Diego",
+        "country": "CA, USA"
+      },
+      "dateStart": {
+        "month": "Dec",
+        "day": 2
+      },
+      "dateEnd": {
+        "month": "Dec",
+        "day": 7
+      },
+      "eventYear": 2025,
+      "pages": {
+        "start": 27680,
+        "end": 27712
+      }
+    },
+    {
+      "id": "neurips-2025-reasoning-is-periodicity-improving",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yihong Dong",
+        "Ge Li",
+        "Xue Jiang",
+        "Yongding Tao",
+        "Kechi Zhang",
+        "Lecheng Wang",
+        "Hao Zhu",
+        "Huanyu Liu",
+        "Jia Li",
+        "Jinliang Deng",
+        "Hong Mei"
+      ],
+      "title": "Reasoning is Periodicity? Improving Large Language Models Through Effective Periodicity Modeling",
+      "year": 2025,
+      "citedBy": null,
+      "arxivId": "2502.21309",
+      "arxivUrl": "https://arxiv.org/abs/2502.21309",
+      "pdfUrl": "My%20Papers/NeurIPS%202025%20-%20Reasoning%20is%20Periodicity-%20Improving%20Large%20Language%20Models%20Through%20Effective%20Periodicity%20Modeling.pdf",
+      "scholarUrl": null,
+      "award": null,
+      "note": null,
+      "venueShort": "NeurIPS",
+      "venueFull": "Proceedings of the 39th Annual Conference on Neural Information Processing Systems",
+      "location": {
+        "city": "San Diego",
+        "country": "CA"
+      },
+      "dateStart": {
+        "month": "Dec",
+        "day": 2
+      },
+      "dateEnd": {
+        "month": "Dec",
+        "day": 7
+      },
+      "eventYear": 2025,
+      "pages": {
+        "start": 158336,
+        "end": 158369
+      }
+    },
+    {
+      "id": "tosem-2025-exploring-data-efficient-adaptation",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Xue Jiang",
+        "Yihong Dong",
+        "Zhiyuan Fan",
+        "Zhi Jin",
+        "Wenpin Jiao",
+        "Ge Li"
+      ],
+      "title": "Exploring Data-Efficient Adaptation of Large Language Models for Code Generation",
+      "year": 2025,
+      "citedBy": null,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2025 - TOSEM - Exploring Data-Efficient Adaptation of Large Language Models for Code Generation.pdf",
+      "scholarUrl": null,
+      "award": null,
+      "note": "Accepted",
+      "venueShort": "TOSEM",
+      "venueFull": "ACM Transactions on Software Engineering and Methodology",
+      "volume": null,
+      "issue": null,
+      "articleNumber": null,
+      "pubDate": {
+        "month": null,
+        "day": null,
+        "year": 2025
+      },
+      "pages": null,
+      "pagesText": null
+    },
+    {
+      "id": "tosem-2025-m2cvd-enhancing-vulnerability-understanding",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Ziliang Wang",
+        "Ge Li",
+        "Jia Li",
+        "Jia Li",
+        "Meng Yan",
+        "Yingfei Xiong",
+        "Zhi Jin"
+      ],
+      "title": "M2CVD: Enhancing Vulnerability Understanding through Multi-Model Collaboration for Code Vulnerability Detection",
+      "year": 2025,
+      "citedBy": 5,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2025 - TOSEM - M2CVD - Enhancing Vulnerability Understanding through Multi-Model Collaboration for Code Vulnerability Detection.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13259446402958610018",
+      "award": null,
+      "note": "Accepted",
+      "venueShort": "TOSEM",
+      "venueFull": "ACM Transactions on Software Engineering and Methodology",
+      "volume": null,
+      "issue": null,
+      "articleNumber": null,
+      "pubDate": {
+        "month": null,
+        "day": null,
+        "year": 2025
+      },
+      "pages": null,
+      "pagesText": null
+    },
+    {
+      "id": "neurips-2025-stacktrans-from-large-language",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Kechi Zhang",
+        "Ge Li",
+        "Jia Li",
+        "Huangzhao Zhang",
+        "Yihong Dong",
+        "Jingjing Xu",
+        "Zhi Jin"
+      ],
+      "title": "StackTrans: From Large Language Model to Large Pushdown Automata Model",
+      "year": 2025,
+      "citedBy": null,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": null,
+      "scholarUrl": null,
+      "award": null,
+      "note": null,
+      "venueShort": "NeurIPS",
+      "venueFull": "Proceedings of the 39th Annual Conference on Neural Information Processing Systems",
+      "location": {
+        "city": "San Diego",
+        "country": "USA"
+      },
+      "dateStart": {
+        "month": "Dec",
+        "day": 2
+      },
+      "dateEnd": {
+        "month": "Dec",
+        "day": 7
+      },
+      "eventYear": 2025,
+      "pages": null
+    },
+    {
+      "id": "neurips-2025-fan-fourier-analysis-networks",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yihong Dong",
+        "Ge Li",
+        "Yongding Tao",
+        "Xue Jiang",
+        "Kechi Zhang",
+        "Jia Li",
+        "Jing Su",
+        "Jun Zhang",
+        "Jingjing Xu"
+      ],
+      "title": "FAN: Fourier Analysis Networks",
+      "year": 2025,
+      "citedBy": 81,
+      "arxivId": "2410.02675",
+      "arxivUrl": "https://arxiv.org/abs/2410.02675",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17560245044847788695",
+      "award": null,
+      "note": null,
+      "venueShort": "NeurIPS",
+      "venueFull": "Proceedings of the 39th Annual Conference on Neural Information Processing Systems",
+      "location": {
+        "city": "San Diego",
+        "country": "USA"
+      },
+      "dateStart": {
+        "month": "Dec",
+        "day": 2
+      },
+      "dateEnd": {
+        "month": "Dec",
+        "day": 7
+      },
+      "eventYear": 2025,
+      "pages": null
+    },
+    {
+      "id": "ase-2025-aixcoder-7b-v2-training-llms",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Jia Li",
+        "Hao Zhu",
+        "Huanyu Liu",
+        "Xianjie Shi",
+        "He Zong",
+        "Yihong Dong",
+        "Kechi Zhang",
+        "Siyuan Jiang",
+        "Zhi Jin",
+        "Ge Li"
+      ],
+      "title": "aiXcoder-7B-v2: Training LLMs to Fully Utilize the Long Context in Repository-level Code Completion",
+      "year": 2025,
+      "citedBy": 19,
+      "arxivId": "2503.15301",
+      "arxivUrl": "https://arxiv.org/abs/2503.15301",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15788931866516891147",
+      "award": null,
+      "note": null,
+      "venueShort": "ASE",
+      "venueFull": "Proceedings of the 40th IEEE/ACM International Conference on Automated Software Engineering",
+      "location": {
+        "city": "Seoul",
+        "country": "South Korea"
+      },
+      "dateStart": {
+        "month": "Nov",
+        "day": 16
+      },
+      "dateEnd": {
+        "month": "Nov",
+        "day": 20
+      },
+      "eventYear": 2025,
+      "pages": null
+    },
+    {
+      "id": "acl-2025-codedpo-aligning-code-models",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Kechi Zhang",
+        "Ge Li",
+        "Yihong Dong",
+        "Jingjing Xu",
+        "Jun Zhang",
+        "Jing Su",
+        "Yongfei Liu",
+        "Zhi Jin"
+      ],
+      "title": "CodeDPO: Aligning Code Models with Self Generated and Verified Source Code",
+      "year": 2025,
+      "citedBy": 49,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11604036139900807781",
+      "award": null,
+      "note": null,
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "Vienna",
+        "country": "Austria"
+      },
+      "dateStart": {
+        "month": "Jul",
+        "day": 27
+      },
+      "dateEnd": {
+        "month": "Aug",
+        "day": 1
+      },
+      "eventYear": 2025,
+      "pages": null
+    },
+    {
+      "id": "acl-2025-rethinking-repetition-problems",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yihong Dong",
+        "Yuchen Liu",
+        "Xue Jiang",
+        "Zhi Jin",
+        "Ge Li"
+      ],
+      "title": "Rethinking Repetition Problems in Code Generation",
+      "year": 2025,
+      "citedBy": 6,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9690201618174311686",
+      "award": null,
+      "note": null,
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "Vienna",
+        "country": "Austria"
+      },
+      "dateStart": {
+        "month": "Jul",
+        "day": 27
+      },
+      "dateEnd": {
+        "month": "Aug",
+        "day": 1
+      },
+      "eventYear": 2025,
+      "pages": null
+    },
+    {
+      "id": "acl-2025-focused-dpo-enhancing-code-generation",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Kechi Zhang",
+        "Ge Li",
+        "Jia Li",
+        "Yihong Dong",
+        "Jia Li",
+        "Zhi Jin"
+      ],
+      "title": "Focused-DPO: Enhancing Code Generation Through Focused Preference Optimization on Error-Prone Points",
+      "year": 2025,
+      "citedBy": 21,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1997961016148982565",
+      "award": null,
+      "note": null,
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "Vienna",
+        "country": "Austria"
+      },
+      "dateStart": {
+        "month": "Jul",
+        "day": 27
+      },
+      "dateEnd": {
+        "month": "Aug",
+        "day": 1
+      },
+      "eventYear": 2025,
+      "pages": null
+    },
+    {
+      "id": "acl-2025-llm-powered-test-case-generation",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Kaibo Liu",
+        "Zhenpeng Chen",
+        "Yiyang Liu",
+        "Jie Zhang",
+        "Mark Harman",
+        "Yudong Han",
+        "Yun Ma",
+        "Yihong Dong",
+        "Ge Li",
+        "Gang Huang"
+      ],
+      "title": "LLM-Powered Test Case Generation for Detecting Bugs in Plausible Programs",
+      "year": 2025,
+      "citedBy": 20,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1138877347567479720",
+      "award": null,
+      "note": null,
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "Vienna",
+        "country": "Austria"
+      },
+      "dateStart": {
+        "month": "Jul",
+        "day": 27
+      },
+      "dateEnd": {
+        "month": "Aug",
+        "day": 1
+      },
+      "eventYear": 2025,
+      "pages": null
+    },
+    {
+      "id": "acl-2025-benchmarking-long-context-language-models",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Jia Li",
+        "Xuyuan Guo",
+        "Lei Li",
+        "Kechi Zhang",
+        "Ge Li",
+        "Jia Li",
+        "Zhengwei Tao",
+        "Fang Liu",
+        "Chongyang Tao",
+        "Yuqi Zhu",
+        "Zhi Jin"
+      ],
+      "title": "Benchmarking Long-Context Language Models on Long Code Understanding",
+      "year": 2025,
+      "citedBy": 2,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7449394879062442432",
+      "award": null,
+      "note": null,
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "Vienna",
+        "country": "Austria"
+      },
+      "dateStart": {
+        "month": "Jul",
+        "day": 27
+      },
+      "dateEnd": {
+        "month": "Aug",
+        "day": 1
+      },
+      "eventYear": 2025,
+      "pages": null
+    },
+    {
+      "id": "tosem-2025-large-language-model-aware-in-context",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Jia Li",
+        "Chongyang Tao",
+        "Jia Li",
+        "Ge Li",
+        "Zhi Jin",
+        "Huangzhao Zhang",
+        "Zheng Fang",
+        "Fang Liu"
+      ],
+      "title": "Large language Model-aware in-Context Learning for Code Generation",
+      "year": 2025,
+      "citedBy": 92,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2025 - TOSEM - Large language Model-aware in-Context Learning for Code Generation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15816256814611446235",
+      "award": null,
+      "note": null,
+      "venueShort": "TOSEM",
+      "venueFull": "ACM Transactions on Software Engineering and Methodology",
+      "volume": 34,
+      "issue": 7,
+      "articleNumber": null,
+      "pubDate": {
+        "month": "Aug",
+        "day": 14,
+        "year": 2025
+      },
+      "pages": {
+        "start": 1,
+        "end": 33
+      },
+      "pagesText": null
+    },
+    {
+      "id": "icse-2025-aixcoder-7b-a-lightweight",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Siyuan Jiang",
+        "Jia Li",
+        "He Zong",
+        "Huanyu Liu",
+        "Hao Zhu",
+        "Shukai Hu",
+        "Erlu Li",
+        "Jiazheng Ding",
+        "Yu Han",
+        "Wei Ning",
+        "Ge Li"
+      ],
+      "title": "aiXcoder-7B: A Lightweight and Effective Large Language Model for Code Completion",
+      "year": 2025,
+      "citedBy": 11,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10988146982571642357",
+      "award": null,
+      "note": null,
+      "venueShort": "ICSE",
+      "venueFull": "Proceedings of the 47th IEEE/ACM International Conference on Software Engineering",
+      "location": {
+        "city": "Ottawa",
+        "country": "Ontario, Canada"
+      },
+      "dateStart": {
+        "month": "Apr",
+        "day": 27
+      },
+      "dateEnd": {
+        "month": "May",
+        "day": 3
+      },
+      "eventYear": 2025,
+      "pages": null
+    },
+    {
+      "id": "icse-2025-rocode-integrating-backtracking-mechanism",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Xue Jiang",
+        "Yihong Dong",
+        "Yongding Tao",
+        "Huanyu Liu",
+        "Zhi Jin",
+        "Ge Li"
+      ],
+      "title": "ROCODE: Integrating Backtracking Mechanism and Program Analysis in Large Language Models for Code Generation",
+      "year": 2025,
+      "citedBy": 25,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2207929275716257375",
+      "award": null,
+      "note": null,
+      "venueShort": "ICSE",
+      "venueFull": "Proceedings of the 47th IEEE/ACM International Conference on Software Engineering",
+      "location": {
+        "city": "Ottawa",
+        "country": "Ontario, Canada"
+      },
+      "dateStart": {
+        "month": "Apr",
+        "day": 27
+      },
+      "dateEnd": {
+        "month": "May",
+        "day": 3
+      },
+      "eventYear": 2025,
+      "pages": null
+    },
+    {
+      "id": "emse-2025-transformer-based-code-model",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Kechi Zhang",
+        "Jia Li",
+        "Zhuo Li",
+        "Zhi Jin",
+        "Ge Li"
+      ],
+      "title": "Transformer-based Code Model with Compressed Hierarchy Representation",
+      "year": 2025,
+      "citedBy": 4,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2024 - TOSEM - Transformer-based Code Model with Compressed Hierarchy Representation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4836126387818289851",
+      "award": null,
+      "note": null,
+      "venueShort": "EMSE",
+      "venueFull": "Empirical Software Engineering",
+      "volume": 30,
+      "issue": 2,
+      "articleNumber": null,
+      "pubDate": {
+        "month": "Mar",
+        "day": null,
+        "year": 2025
+      },
+      "pages": {
+        "start": 1,
+        "end": 43
+      },
+      "pagesText": null
+    },
+    {
+      "id": "emse-2025-scodesearcher-soft-contrastive-learning",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Jia Li",
+        "Zheng Fang",
+        "Xianjie Shi",
+        "Zhi Jin",
+        "Fang Liu",
+        "Yunfei Zhao",
+        "Ge Li"
+      ],
+      "title": "SCodeSearcher: Soft Contrastive Learning for Code Search",
+      "year": 2025,
+      "citedBy": 3,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2025 - EMSE - SCodeSearcher: Soft Contrastive Learning for Code Search.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8944263493854969850",
+      "award": null,
+      "note": null,
+      "venueShort": "EMSE",
+      "venueFull": "Empirical Software Engineering",
+      "volume": 30,
+      "issue": 3,
+      "articleNumber": null,
+      "pubDate": {
+        "month": "May",
+        "day": null,
+        "year": 2025
+      },
+      "pages": {
+        "start": 1,
+        "end": 23
+      },
+      "pagesText": null
+    },
+    {
+      "id": "tosem-2025-patch-empowering-large-language",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Yuwei Zhang",
+        "Zhi Jin",
+        "Ying Xing",
+        "Ge Li",
+        "Fang Liu",
+        "Jiaxin Zhu",
+        "Wensheng Dou",
+        "Jun Wei"
+      ],
+      "title": "PATCH: Empowering Large Language Model with Programmer-Intent Guidance and Collaborative-Behavior Simulation for Automatic Bug Fixing",
+      "year": 2025,
+      "citedBy": 21,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2025 - TOSEM - PATCH- Empowering Large Language Model with Programmer-Intent Guidance and Collaborative-Behavior Simulation for Automatic Bug Fixing.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4512200624169268396",
+      "award": null,
+      "note": null,
+      "venueShort": "TOSEM",
+      "venueFull": "ACM Transactions on Software Engineering and Methodology",
+      "volume": null,
+      "issue": null,
+      "articleNumber": null,
+      "pubDate": {
+        "month": null,
+        "day": null,
+        "year": 2025
+      },
+      "pages": null,
+      "pagesText": null
+    },
+    {
+      "id": "tosem-2025-structured-chain-of-thought-prompting",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Jia Li",
+        "Ge Li",
+        "Yongmin Li",
+        "Jin Zhi"
+      ],
+      "title": "Structured Chain-of-Thought Prompting for Code Generation",
+      "year": 2025,
+      "citedBy": 396,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2025 - TOSEM - Structured Chain-of-Thought Prompting for Code Generation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17573273940722685551",
+      "award": null,
+      "note": null,
+      "venueShort": "TOSEM",
+      "venueFull": "ACM Transactions on Software Engineering and Methodology",
+      "volume": 34,
+      "issue": 2,
+      "articleNumber": null,
+      "pubDate": {
+        "month": "Jan",
+        "day": null,
+        "year": 2025
+      },
+      "pages": {
+        "start": 1,
+        "end": 23
+      },
+      "pagesText": null
+    },
+    {
+      "id": "tosem-2024-evaluating-code-generation",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Yihong Dong",
+        "Jiazheng Ding",
+        "Xue Jiang",
+        "Ge Li",
+        "Zhuo Li",
+        "Zhi Jin"
+      ],
+      "title": "Evaluating Code Generation by Learning Code Execution",
+      "year": 2024,
+      "citedBy": 118,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2024 - TOSEM - CodeScore - Evaluating Code Generation by Learning Code Execution.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5692449432782121954",
+      "award": null,
+      "note": null,
+      "venueShort": "TOSEM",
+      "venueFull": "ACM Transactions on Software Engineering and Methodology",
+      "volume": 33,
+      "issue": 7,
+      "articleNumber": "Article 182",
+      "pubDate": {
+        "month": "Sep",
+        "day": null,
+        "year": 2024
+      },
+      "pages": null,
+      "pagesText": null
+    },
+    {
+      "id": "ase-2024-sliceprompttest4j-high-coverage-test-generation",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Zejun Wang",
+        "Kaibo Liu",
+        "Ge Li",
+        "Zhi Jin"
+      ],
+      "title": "SlicePromptTest4J: High-coverage Test Generation using LLM via Method Slicing",
+      "year": 2024,
+      "citedBy": null,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2024 - ASE - SlicePromptTest4J- High-coverage Test Generation using LLM via Method Slicing.pdf",
+      "scholarUrl": null,
+      "award": null,
+      "note": null,
+      "venueShort": "ASE",
+      "venueFull": "Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering",
+      "location": {
+        "city": "Sacramento",
+        "country": "California, United States"
+      },
+      "dateStart": {
+        "month": "Oct",
+        "day": 27
+      },
+      "dateEnd": {
+        "month": "Nov",
+        "day": 1
+      },
+      "eventYear": 2024,
+      "pages": {
+        "start": 1258,
+        "end": 1268
+      }
+    },
+    {
+      "id": "neurips-2024-evocodebench-an-evolving-code",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Jia Li",
+        "Ge Li",
+        "Xuanming Zhang",
+        "Yunfei Zhao",
+        "Yihong Dong",
+        "Zhi Jin",
+        "Binhua Li",
+        "Fei Huang",
+        "Yongbin Li"
+      ],
+      "title": "EvoCodeBench: An Evolving Code Generation Benchmark with Domain-Specific Evaluations",
+      "year": 2024,
+      "citedBy": 60,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2024 - NeurIPS - EvoCodeBench- An Evolving Code Generation Benchmark with Domain-Specific Evaluations.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3646257196711982514",
+      "award": null,
+      "note": null,
+      "venueShort": "NeurIPS",
+      "venueFull": "Proceedings of the 38th Annual Conference on Neural Information Processing Systems",
+      "location": {
+        "city": "Vancouver",
+        "country": "Canada"
+      },
+      "dateStart": {
+        "month": "Dec",
+        "day": 10
+      },
+      "dateEnd": {
+        "month": "Dec",
+        "day": 15
+      },
+      "eventYear": 2024,
+      "pages": null
+    },
+    {
+      "id": "tosem-2024-acecoder-an-effective-prompting",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Jia Li",
+        "Yunfei Zhao",
+        "Yongmin Li",
+        "Ge Li",
+        "Zhi Jin"
+      ],
+      "title": "AceCoder: An Effective Prompting Technique Specialized in Code Generation",
+      "year": 2024,
+      "citedBy": 73,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2024 - TOSEM - AceCoder- An Effective Prompting Technique Specialized in Code Generation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16975702538622477751",
+      "award": null,
+      "note": null,
+      "venueShort": "TOSEM",
+      "venueFull": "ACM Transactions on Software Engineering and Methodology",
+      "volume": 33,
+      "issue": 8,
+      "articleNumber": "Article 204",
+      "pubDate": {
+        "month": "Nov",
+        "day": null,
+        "year": 2024
+      },
+      "pages": null,
+      "pagesText": null
+    },
+    {
+      "id": "tosem-2024-self-collaboration-code-generation",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Yihong Dong",
+        "Xue Jiang",
+        "Zhi Jin",
+        "Ge Li"
+      ],
+      "title": "Self-collaboration Code Generation via ChatGPT",
+      "year": 2024,
+      "citedBy": 566,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2024 - TOSEM - Self-collaboration Code Generation via ChatGPT.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14068134124059091664",
+      "award": null,
+      "note": null,
+      "venueShort": "TOSEM",
+      "venueFull": "ACM Transactions on Software Engineering and Methodology",
+      "volume": 33,
+      "issue": 7,
+      "articleNumber": "Article 189",
+      "pubDate": {
+        "month": "Sep",
+        "day": null,
+        "year": 2024
+      },
+      "pages": null,
+      "pagesText": null
+    },
+    {
+      "id": "tosem-2024-self-planning-code-generation",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Xue Jiang",
+        "Yihong Dong",
+        "Lecheng Wang",
+        "Zheng Fang",
+        "Qiwei Shang",
+        "Ge Li",
+        "Zhi Jin",
+        "Wenpin Jiao"
+      ],
+      "title": "Self-Planning Code Generation with Large Language Model",
+      "year": 2024,
+      "citedBy": 326,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2024 - TOSEM - Self-Planning Code Generation with Large Language Model.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4235216703937477468",
+      "award": null,
+      "note": null,
+      "venueShort": "TOSEM",
+      "venueFull": "ACM Transactions on Software Engineering and Methodology",
+      "volume": 33,
+      "issue": 7,
+      "articleNumber": "Article 182",
+      "pubDate": {
+        "month": "Sep",
+        "day": null,
+        "year": 2024
+      },
+      "pages": null,
+      "pagesText": null
+    },
+    {
+      "id": "jsep-2024-well-applying-bug-detectors",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Huangzhao Zhang",
+        "Zhuo Li",
+        "Zhi Jin",
+        "Ge Li"
+      ],
+      "title": "WELL: Applying Bug Detectors to Bug Localization via Weakly Supervised Learning",
+      "year": 2024,
+      "citedBy": 4,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2024 - JSEP - WELL- Applying Bug Detectors to Bug Localization via Weakly Supervised Learning.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5975623839936591101",
+      "award": null,
+      "note": null,
+      "venueShort": "JSEP",
+      "venueFull": "Journal of Software: Evolution and Process",
+      "volume": 36,
+      "issue": 9,
+      "articleNumber": null,
+      "pubDate": {
+        "month": "Sep",
+        "day": 1,
+        "year": 2024
+      },
+      "pages": {
+        "start": 1,
+        "end": 23
+      },
+      "pagesText": null
+    },
+    {
+      "id": "acl-2024-hirope-length-extrapolation",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Kechi Zhang",
+        "Ge Li",
+        "Huangzhao Zhang",
+        "Zhi Jin"
+      ],
+      "title": "HiRoPE: Length Extrapolation for Code Models Using Hierarchical Position",
+      "year": 2024,
+      "citedBy": 17,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2024 - ACL - HiRoPE- Length Extrapolation for Code Models Using Hierarchical Position.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13522423733386863203",
+      "award": null,
+      "note": null,
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "Bangkok",
+        "country": "Thailand"
+      },
+      "dateStart": {
+        "month": "Aug",
+        "day": 11
+      },
+      "dateEnd": {
+        "month": "Aug",
+        "day": 16
+      },
+      "eventYear": 2024,
+      "pages": null
+    },
+    {
+      "id": "acl-2024-codeagent-enhancing-code-generation",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Kechi Zhang",
+        "Jia Li",
+        "Ge Li",
+        "Xianjie Shi",
+        "Zhi Jin"
+      ],
+      "title": "CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges",
+      "year": 2024,
+      "citedBy": 348,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2024 - ACL - CodeAgent- Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7561981007078652264",
+      "award": null,
+      "note": null,
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "Bangkok",
+        "country": "Thailand"
+      },
+      "dateStart": {
+        "month": "Aug",
+        "day": 11
+      },
+      "dateEnd": {
+        "month": "Aug",
+        "day": 16
+      },
+      "eventYear": 2024,
+      "pages": null
+    },
+    {
+      "id": "acl-2024-generalization-or-memorization-data",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yihong Dong",
+        "Xue Jiang",
+        "Huanyu Liu",
+        "Zhi Jin",
+        "Ge Li"
+      ],
+      "title": "Generalization or Memorization: Data Contamination and Trustworthy Evaluation for Large Language Models",
+      "year": 2024,
+      "citedBy": 246,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2024 - ACL - Generalization or Memorization- Data Contamination and Trustworthy Evaluation for Large Language Models.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12772159853626181897",
+      "award": null,
+      "note": null,
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "Bangkok",
+        "country": "Thailand"
+      },
+      "dateStart": {
+        "month": "Aug",
+        "day": 11
+      },
+      "dateEnd": {
+        "month": "Aug",
+        "day": 16
+      },
+      "eventYear": 2024,
+      "pages": null
+    },
+    {
+      "id": "acl-2024-deveval-a-manually-annotated-code",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Jia Li",
+        "Ge Li",
+        "Yunfei Zhao",
+        "Yongmin Li",
+        "Zhi Jin",
+        "Hao Zhu",
+        "Huanyu Liu",
+        "Kaibo Liu",
+        "Lecheng Wang",
+        "Zheng Fang",
+        "Lanshen Wang",
+        "Jiazheng Ding",
+        "Xuanming Zhang",
+        "Yihong Dong",
+        "Yuqi Zhu"
+      ],
+      "title": "DevEval: A Manually-Annotated Code Generation Benchmark Aligned with Real-World Code Repositories",
+      "year": 2024,
+      "citedBy": 88,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2024 - ACL - DevEval- A Manually-Annotated Code Generation Benchmark Aligned with Real-World Code Repositories.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6955735688539690598",
+      "award": null,
+      "note": null,
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "Bangkok",
+        "country": "Thailand"
+      },
+      "dateStart": {
+        "month": "Aug",
+        "day": 11
+      },
+      "dateEnd": {
+        "month": "Aug",
+        "day": 16
+      },
+      "eventYear": 2024,
+      "pages": null
+    },
+    {
+      "id": "acl-2024-pace-improving-prompt",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yihong Dong",
+        "Kangcheng Luo",
+        "Xue Jiang",
+        "Zhi Jin",
+        "Ge Li"
+      ],
+      "title": "PACE: Improving Prompt with Actor-Critic Editing for Large Language Model",
+      "year": 2024,
+      "citedBy": 42,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2024 - ACL - PACE- Improving Prompt with Actor-Critic Editing for Large Language Model.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2484678455304132421",
+      "award": null,
+      "note": null,
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "Bangkok",
+        "country": "Thailand"
+      },
+      "dateStart": {
+        "month": "Aug",
+        "day": 11
+      },
+      "dateEnd": {
+        "month": "Aug",
+        "day": 16
+      },
+      "eventYear": 2024,
+      "pages": null
+    },
+    {
+      "id": "fse-2024-exploring-and-unleashing",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Zhen Yang",
+        "Fang Liu",
+        "Zhongxing Yu",
+        "Jacy Wai Keung",
+        "Jia Li",
+        "Shuo Liu",
+        "Yifan Hong",
+        "Xiaoxue Ma",
+        "Zhi Jin",
+        "Ge Li"
+      ],
+      "title": "Exploring and Unleashing the Power of Large Language Models in Automated Code Translation",
+      "year": 2024,
+      "citedBy": 184,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2024 - FSE - Exploring and Unleashing the Power of Large Language Models in Automated Code Translation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13351935780858102292",
+      "award": null,
+      "note": null,
+      "venueShort": "FSE",
+      "venueFull": "Proceedings of the 2024 ACM International Conference on the Foundations of Software Engineering",
+      "location": {
+        "city": "Porto de Galinhas",
+        "country": "Brazil"
+      },
+      "dateStart": {
+        "month": "Jul",
+        "day": 15
+      },
+      "dateEnd": {
+        "month": "Jul",
+        "day": 19
+      },
+      "eventYear": 2024,
+      "pages": null
+    },
+    {
+      "id": "jsep-2024-codebert-attack-adversarial-attack-against",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Huangzhao Zhang",
+        "Shuai Lu",
+        "Zhuo Li",
+        "Zhi Jin",
+        "Lei Ma",
+        "Yang Liu",
+        "Ge Li"
+      ],
+      "title": "Codebert-Attack: Adversarial Attack against Source Code Deep Learning Models via Pre-trained Model",
+      "year": 2024,
+      "citedBy": 27,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2024 - JSEP - Codebert-Attack- Adversarial Attack against Source Code Deep Learning Models via Pre-trained Model.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17242215769330747796",
+      "award": null,
+      "note": null,
+      "venueShort": "JSEP",
+      "venueFull": "Journal of Software: Evolution and Process",
+      "volume": 36,
+      "issue": 3,
+      "articleNumber": null,
+      "pubDate": {
+        "month": "Mar",
+        "day": null,
+        "year": 2024
+      },
+      "pages": null,
+      "pagesText": null
+    },
+    {
+      "id": "scis-2024-deep-learning-for-code",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Huangzhao Zhang",
+        "Kechi Zhang",
+        "Zhuo Li",
+        "Jia Li",
+        "Jia Li",
+        "Yongmin Li",
+        "Yunfei Zhao",
+        "Yuqi Zhu",
+        "Fang Liu",
+        "Ge Li",
+        "Zhi Jin"
+      ],
+      "title": "Deep Learning for Code Generation: A Survey",
+      "year": 2024,
+      "citedBy": 31,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2024 - SCIS - Deep Learning for Code Generation - A Survey.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9964711056121178532",
+      "award": null,
+      "note": null,
+      "venueShort": "SCIS",
+      "venueFull": "Science China Information Sciences",
+      "volume": null,
+      "issue": null,
+      "articleNumber": null,
+      "pubDate": {
+        "month": "Feb",
+        "day": 6,
+        "year": 2024
+      },
+      "pages": null,
+      "pagesText": null
+    },
+    {
+      "id": "tosem-2024-poison-attack-and-poison",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Jia Li",
+        "Zhuo Li",
+        "Huangzhao Zhang",
+        "Ge Li",
+        "Zhi Jin",
+        "Xing Hu",
+        "Xin Xia"
+      ],
+      "title": "Poison Attack and Poison Detection on Deep Source Code Processing Models",
+      "year": 2024,
+      "citedBy": 51,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2024 - TOSEM - Poison Attack and Poison Detection on Deep Source Code Processing Models.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12660933787426516615",
+      "award": null,
+      "note": null,
+      "venueShort": "TOSEM",
+      "venueFull": "ACM Transactions on Software Engineering and Methodology",
+      "volume": 33,
+      "issue": 62,
+      "articleNumber": null,
+      "pubDate": {
+        "month": "Mar",
+        "day": 14,
+        "year": 2024
+      },
+      "pages": {
+        "start": 1,
+        "end": 31
+      },
+      "pagesText": null
+    },
+    {
+      "id": "aaai-2024-hot-or-cold-adaptive",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yuqi Zhu",
+        "Jia Allen Li",
+        "Ge Li",
+        "YunFei Zhao",
+        "Jia Li",
+        "Zhi Jin",
+        "Hong Mei"
+      ],
+      "title": "Hot or Cold? Adaptive Temperature Sampling for Code Generation with Large Language Models",
+      "year": 2024,
+      "citedBy": 115,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2024 - AAAI - Hot or Cold - Adaptive Temperature Sampling for Code Generation with Large Language Models.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15449504382001947561",
+      "award": null,
+      "note": null,
+      "venueShort": "AAAI",
+      "venueFull": "Proceedings of the 38th Annual AAAI Conference on Artificial Intelligence",
+      "location": {
+        "city": "Vancouver",
+        "country": "Canada"
+      },
+      "dateStart": {
+        "month": "Feb",
+        "day": 20
+      },
+      "dateEnd": {
+        "month": "Feb",
+        "day": 27
+      },
+      "eventYear": 2024,
+      "pages": null
+    },
+    {
+      "id": "asej-2023-adacomplete-improve-dl-based-code",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Zejun Wang",
+        "Fang Liu",
+        "Yiyang Hao",
+        "Zhi Jin"
+      ],
+      "title": "AdaComplete: improve DL-based code completion method’s domain adaptability",
+      "year": 2023,
+      "citedBy": null,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2023 - ASEJ - AdaComplete- Improve DL-based Code Completion Method’s Domain Adaptability.pdf",
+      "scholarUrl": null,
+      "award": null,
+      "note": null,
+      "venueShort": "ASEJ",
+      "venueFull": "Automated Software Engineering",
+      "volume": 30,
+      "issue": 1,
+      "articleNumber": null,
+      "pubDate": {
+        "month": "Mar",
+        "day": 6,
+        "year": 2023
+      },
+      "pages": {
+        "start": 28,
+        "end": 39
+      },
+      "pagesText": null
+    },
+    {
+      "id": "internetware-2023-mcodesearcher-multi-view-contrastive-learning",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Jia Li",
+        "Fang Liu",
+        "Jia Allen Li",
+        "Yunfei Zhao",
+        "Ge Li",
+        "Zhi Jin"
+      ],
+      "title": "Mcodesearcher: Multi-view Contrastive Learning for Code Search",
+      "year": 2023,
+      "citedBy": 6,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2023 - Internetware - Mcodesearcher- Multi-view Contrastive Learning for Code Search.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3548263619858824067",
+      "award": null,
+      "note": null,
+      "venueShort": "Internetware",
+      "venueFull": "Proceedings of the 14th Asia-Pacific Symposium on Internetware",
+      "location": {
+        "city": "Hangzhou",
+        "country": "China"
+      },
+      "dateStart": {
+        "month": "Aug",
+        "day": 4
+      },
+      "dateEnd": {
+        "month": "Aug",
+        "day": 6
+      },
+      "eventYear": 2023,
+      "pages": null
+    },
+    {
+      "id": "internetware-2023-seq2seq-or-seq2tree-generating",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yunfei Zhao",
+        "Yihong Dong",
+        "Ge Li"
+      ],
+      "title": "Seq2Seq or Seq2Tree: Generating Code Using Both Paradigms via Mutual Learning",
+      "year": 2023,
+      "citedBy": 5,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2023 - Internetware - Seq2Seq or Seq2Tree- Generating Code Using Both Paradigms via Mutual Learning.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10480058470957227065",
+      "award": null,
+      "note": null,
+      "venueShort": "Internetware",
+      "venueFull": "Proceedings of the 14th Asia-Pacific Symposium on Internetware",
+      "location": {
+        "city": "Hangzhou",
+        "country": "China"
+      },
+      "dateStart": {
+        "month": "Aug",
+        "day": 4
+      },
+      "dateEnd": {
+        "month": "Aug",
+        "day": 6
+      },
+      "eventYear": 2023,
+      "pages": {
+        "start": 238,
+        "end": 248
+      }
+    },
+    {
+      "id": "ecai-2023-antecedent-predictions-are-more",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yihong Dong",
+        "Ge Li",
+        "Xue Jiang",
+        "Zhi Jin"
+      ],
+      "title": "Antecedent Predictions Are More Important Than You Think: An Effective Method for Tree-Based Code Generation",
+      "year": 2023,
+      "citedBy": 4,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2023 - ECAI - Antecedent Predictions Are More Important Than You Think - An Effective Method for Tree-Based Code Generation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13969276125656919736",
+      "award": null,
+      "note": null,
+      "venueShort": "ECAI",
+      "venueFull": "Proceedings of the 26th European Conference on Artificial Intelligence",
+      "location": {
+        "city": "Kraków",
+        "country": "Poland"
+      },
+      "dateStart": {
+        "month": "Sep",
+        "day": 30
+      },
+      "dateEnd": {
+        "month": "Oct",
+        "day": 4
+      },
+      "eventYear": 2023,
+      "pages": {
+        "start": 565,
+        "end": 574
+      }
+    },
+    {
+      "id": "ase-2023-zc3-zero-shot-cross-language-code",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Jia Li",
+        "Chongyang Tao",
+        "Zhi Jin",
+        "Fang Liu",
+        "Jia Allen Li",
+        "Ge Li"
+      ],
+      "title": "ZC3 Zero-Shot Cross-Language Code Clone Detection",
+      "year": 2023,
+      "citedBy": 15,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2023 - ASE - ZC3 Zero-Shot Cross-Language Code Clone Detection.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3193022310429670081",
+      "award": null,
+      "note": null,
+      "venueShort": "ASE",
+      "venueFull": "Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering",
+      "location": {
+        "city": "Kirchberg",
+        "country": "Luxembourg"
+      },
+      "dateStart": {
+        "month": "Sep",
+        "day": 11
+      },
+      "dateEnd": {
+        "month": "Sep",
+        "day": 15
+      },
+      "eventYear": 2023,
+      "pages": null
+    },
+    {
+      "id": "acl-2023-self-edit-fault-aware-code-editor",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Kechi Zhang",
+        "Zhuo Li",
+        "Jia Allen Li",
+        "Ge Li",
+        "Zhi Jin"
+      ],
+      "title": "Self-Edit: Fault-Aware Code Editor for Code Generation",
+      "year": 2023,
+      "citedBy": 208,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2023 - ACL - Self-Edit- Fault-Aware Code Editor for Code Generation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4487781111471187233",
+      "award": null,
+      "note": null,
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "dateStart": {
+        "month": "Jul",
+        "day": 9
+      },
+      "dateEnd": {
+        "month": "Jul",
+        "day": 14
+      },
+      "eventYear": 2023,
+      "pages": null
+    },
+    {
+      "id": "tosem-2023-codeeditor-learning-to-edit",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Jia Allen Li",
+        "Ge Li",
+        "Zhuo Li",
+        "Zhi Jin",
+        "Xing Hu",
+        "Kechi Zhang",
+        "Zhiyi Fu"
+      ],
+      "title": "CodeEditor: Learning to Edit Source Code with Pre-trained Models",
+      "year": 2023,
+      "citedBy": 61,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2023 - TOSEM - CodeEditor- Learning to Edit Source Code with Pre-trained Models.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11510210383782264150",
+      "award": null,
+      "note": null,
+      "venueShort": "TOSEM",
+      "venueFull": "ACM Transactions on Software Engineering and Methodology",
+      "volume": 32,
+      "issue": 6,
+      "articleNumber": null,
+      "pubDate": {
+        "month": "May",
+        "day": 22,
+        "year": 2023
+      },
+      "pages": {
+        "start": 143,
+        "end": 165
+      },
+      "pagesText": null
+    },
+    {
+      "id": "issta-2023-codep-grammatical-seq2seq-model",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yihong Dong",
+        "Ge Li",
+        "Jiazheng Ding",
+        "Zhi Jin"
+      ],
+      "title": "CODEP: Grammatical Seq2Seq Model for General-Purpose Code Generation",
+      "year": 2023,
+      "citedBy": 39,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2023 - ISSTA - CODEP- Grammatical Seq2Seq Model for General-Purpose Code Generation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3611202660419197043",
+      "award": null,
+      "note": null,
+      "venueShort": "ISSTA",
+      "venueFull": "Proceedings of the ACM Sigsoft International Symposium on Software Testing and Analysis",
+      "location": {
+        "city": "Seattle",
+        "country": "Washington, United States"
+      },
+      "dateStart": {
+        "month": "Jul",
+        "day": 17
+      },
+      "dateEnd": {
+        "month": "Jul",
+        "day": 21
+      },
+      "eventYear": 2023,
+      "pages": null
+    },
+    {
+      "id": "icse-2023-skcoder-a-sketch-based-approach",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Jia Allen Li",
+        "Yongmin Li",
+        "Ge Li",
+        "Zhi Jin",
+        "Xing Hu"
+      ],
+      "title": "SkCoder: A Sketch-based Approach for Automatic Code Generation",
+      "year": 2023,
+      "citedBy": 108,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2023 - ICSE - SkCoder- A Sketch-based Approach for Automatic Code Generation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9006767000376417857",
+      "award": null,
+      "note": null,
+      "venueShort": "ICSE",
+      "venueFull": "Proceedings of the 45th International Conference on Software Engineering",
+      "location": {
+        "city": "Melbourne",
+        "country": "Australia"
+      },
+      "dateStart": {
+        "month": "May",
+        "day": 14
+      },
+      "dateEnd": {
+        "month": "May",
+        "day": 20
+      },
+      "eventYear": 2023,
+      "pages": null
+    },
+    {
+      "id": "icpc-2023-implant-global-and-local",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Kechi Zhang",
+        "Zhou Li",
+        "Zhi Jin",
+        "Ge Li"
+      ],
+      "title": "Implant Global and Local Hierarchy Information to Sequence based Code Representation Models",
+      "year": 2023,
+      "citedBy": 11,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2023 - ICPC - Implant Global and Local Hierarchy Information to Sequence based Code Representation Models.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16347156324718068718",
+      "award": null,
+      "note": null,
+      "venueShort": "ICPC",
+      "venueFull": "Proceedings of the 31st IEEE/ACM International Conference on Program Comprehension",
+      "location": {
+        "city": "Melbourne",
+        "country": "Australia"
+      },
+      "dateStart": {
+        "month": "May",
+        "day": 15
+      },
+      "dateEnd": {
+        "month": "May",
+        "day": 16
+      },
+      "eventYear": 2023,
+      "pages": null
+    },
+    {
+      "id": "saner-2023-learning-program-representations",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Wenhan Wang",
+        "Kechi Zhang",
+        "Ge Li",
+        "Shangqing Liu",
+        "Anran Li",
+        "Zhi Jin",
+        "Yang Liu"
+      ],
+      "title": "Learning Program Representations with a Tree-Structured Transformer",
+      "year": 2023,
+      "citedBy": 23,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2023 - SANER - Learning Program Representations with a Tree-Structured Transformer.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7669077573597203222,16409416322599397761",
+      "award": null,
+      "note": null,
+      "venueShort": "SANER",
+      "venueFull": "Proceedings of the 30th IEEE International Conference on Software Analysis, Evolution and Reengineering",
+      "location": {
+        "city": "Macao SAR",
+        "country": "China"
+      },
+      "dateStart": {
+        "month": "Mar",
+        "day": 21
+      },
+      "dateEnd": {
+        "month": "Mar",
+        "day": 24
+      },
+      "eventYear": 2023,
+      "pages": null
+    },
+    {
+      "id": "emnlp-2022-rethinking-positional-encoding",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Han Peng",
+        "Ge Li",
+        "Yunfei Zhao",
+        "Zhi Jin"
+      ],
+      "title": "Rethinking Positional Encoding in Tree Transformer for Code Representation",
+      "year": 2022,
+      "citedBy": 28,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2022 - EMNLP - Rethinking Positional Encoding in Tree Transformer for Code Representation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12668765013189969735",
+      "award": null,
+      "note": null,
+      "venueShort": "EMNLP",
+      "venueFull": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+      "location": {
+        "city": "Abu Dhabi"
+      },
+      "dateStart": {
+        "month": "Dec",
+        "day": 7
+      },
+      "dateEnd": {
+        "month": "Dec",
+        "day": 11
+      },
+      "eventYear": 2022,
+      "pages": {
+        "start": 3204,
+        "end": 3214
+      }
+    },
+    {
+      "id": "neurips-2022-fine-tuning-pre-trained-language-models",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Haojie Zhang",
+        "Ge Li",
+        "Jia Allen Li",
+        "Zhongjin Zhang",
+        "Yuqi Zhu",
+        "Zhi Jin"
+      ],
+      "title": "Fine-Tuning Pre-Trained Language Models Effectively by Optimizing Subnetworks Adaptively",
+      "year": 2022,
+      "citedBy": 54,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2022 - NeurIPS - Fine-Tuning Pre-Trained Language Models Effectively by Optimizing Subnetworks Adaptively.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=204679375623303358",
+      "award": null,
+      "note": null,
+      "venueShort": "NeurIPS",
+      "venueFull": "Proceedings of the 36th Conference on Neural Information Processing Systems",
+      "location": {
+        "city": "Online"
+      },
+      "dateStart": {
+        "month": "Nov",
+        "day": 29
+      },
+      "dateEnd": {
+        "month": "Dec",
+        "day": 1
+      },
+      "eventYear": 2022,
+      "pages": null
+    },
+    {
+      "id": "fse-2022-incorporating-domain-knowledge",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Sijie Shen",
+        "Xiang Zhu",
+        "Yihong Dong",
+        "Qizhi Guo",
+        "Yankun Zhen",
+        "Ge Li"
+      ],
+      "title": "Incorporating Domain Knowledge through Task Augmentation for Front-End JavaScript Code Generation",
+      "year": 2022,
+      "citedBy": 41,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2022 - FSE - Incorporating Domain Knowledge through Task Augmentation for Front-End JavaScript Code Generation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2935214661483064519",
+      "award": null,
+      "note": null,
+      "venueShort": "FSE",
+      "venueFull": "Proceedings of The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering",
+      "location": {
+        "city": "Singapore"
+      },
+      "dateStart": {
+        "month": "Nov",
+        "day": 14
+      },
+      "dateEnd": {
+        "month": "Nov",
+        "day": 16
+      },
+      "eventYear": 2022,
+      "pages": null
+    },
+    {
+      "id": "fse-2022-we-building",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Lin Shi",
+        "Fangwen Mu",
+        "Xiao Chen",
+        "Song Wang",
+        "Junjie Wang",
+        "Ye Yang",
+        "Ge Li",
+        "Xin Xia",
+        "Qing Wang"
+      ],
+      "title": "We Building on the Rock? On the Importance of Data Preprocessing for Code Summarization",
+      "year": 2022,
+      "citedBy": 59,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2022 - FSE - We Building on the Rock - On the Importance of Data Preprocessing for Code Summarization.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11425270772274155685",
+      "award": null,
+      "note": null,
+      "venueShort": "FSE",
+      "venueFull": "Proceedings of The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering",
+      "location": {
+        "city": "Singapore"
+      },
+      "dateStart": {
+        "month": "Nov",
+        "day": 14
+      },
+      "dateEnd": {
+        "month": "Nov",
+        "day": 16
+      },
+      "eventYear": 2022,
+      "pages": null
+    },
+    {
+      "id": "cikm-2022-sk2-integrating-implicit-sentiment",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Jia Li",
+        "Yuyuan Zhao",
+        "Zhi Jin",
+        "Ge Li",
+        "Tao Shen",
+        "Zhengwei Tao",
+        "Chongyang Tao"
+      ],
+      "title": "SK2: Integrating Implicit Sentiment Knowledge and Explicit Syntax Knowledge for Aspect-Based Sentiment Analysis",
+      "year": 2022,
+      "citedBy": 25,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2022 - CIKM - SK2- Integrating Implicit Sentiment Knowledge and Explicit Syntax Knowledge for Aspect-Based Sentiment Analysis.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9603536366096444100",
+      "award": null,
+      "note": null,
+      "venueShort": "CIKM",
+      "venueFull": "Proceedings of 31st ACM International Conference on Information and Knowledge Management",
+      "location": {
+        "city": "Atlanta",
+        "country": "Georgia, USA"
+      },
+      "dateStart": {
+        "month": "Oct",
+        "day": 17
+      },
+      "dateEnd": {
+        "month": "Oct",
+        "day": 21
+      },
+      "eventYear": 2022,
+      "pages": null
+    },
+    {
+      "id": "tosem-2022-assessing-and-improving",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Hao Yu",
+        "Xing Hu",
+        "Ge Li",
+        "Ying Li",
+        "Qianxiang Wang",
+        "Tao Xie"
+      ],
+      "title": "Assessing and Improving an Evaluation Dataset for Detecting Semantic Code Clones via Deep Learning",
+      "year": 2022,
+      "citedBy": 12,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2022 - TOSEM - Assessing and Improving an Evaluation Dataset for Detecting Semantic Code Clones via Deep Learning.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7119519758770072255",
+      "award": null,
+      "note": null,
+      "venueShort": "TOSEM",
+      "venueFull": "ACM Transactions on Software Engineering and Methodology",
+      "volume": 31,
+      "issue": 4,
+      "articleNumber": "Article 62",
+      "pubDate": {
+        "month": "Jul",
+        "day": null,
+        "year": 2022
+      },
+      "pages": {
+        "start": 1,
+        "end": 25
+      },
+      "pagesText": null
+    },
+    {
+      "id": "icse-2022-learning-to-recommend-method",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Fang Liu",
+        "Ge Li",
+        "Zhiyi Fu",
+        "Shuai Lu",
+        "Yiyang Hao",
+        "Zhi Jin"
+      ],
+      "title": "Learning to Recommend Method Names with Global Context",
+      "year": 2022,
+      "citedBy": 41,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2022 - ICSE - Learning to Recommend Method Names with Global Context.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8331415753093554061",
+      "award": null,
+      "note": null,
+      "venueShort": "ICSE",
+      "venueFull": "Proceedings of the 44th International Conference on Software Engineering",
+      "location": {
+        "city": "Pittsburgh",
+        "country": "PA, USA"
+      },
+      "dateStart": {
+        "month": "May",
+        "day": 21
+      },
+      "dateEnd": {
+        "month": "May",
+        "day": 29
+      },
+      "eventYear": 2022,
+      "pages": null
+    },
+    {
+      "id": "icse-2022-automated-assertion-generation",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Hao Yu",
+        "Yiling Lou",
+        "Ke Sun",
+        "Dezhi Ran",
+        "Tao Xie",
+        "Dan Hao",
+        "Ying Li",
+        "Ge Li",
+        "Qianxiang Wang"
+      ],
+      "title": "Automated Assertion Generation via Information Retrieval and Its Integration with Deep Learning",
+      "year": 2022,
+      "citedBy": 67,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2022 - ICSE - Automated Assertion Generation via Information Retrieval and Its Integration with Deep Learning.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10565253083280642909",
+      "award": null,
+      "note": null,
+      "venueShort": "ICSE",
+      "venueFull": "Proceedings of the 44th International Conference on Software Engineering",
+      "location": {
+        "city": "Pittsburgh",
+        "country": "PA, USA"
+      },
+      "dateStart": {
+        "month": "May",
+        "day": 21
+      },
+      "dateEnd": {
+        "month": "May",
+        "day": 29
+      },
+      "eventYear": 2022,
+      "pages": null
+    },
+    {
+      "id": "icpc-2022-learning-to-represent-programs",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Kechi Zhang",
+        "Wenhan Wang",
+        "Huangzhao Zhang",
+        "Ge Li",
+        "Zhi Jin"
+      ],
+      "title": "Learning to Represent Programs with Heterogeneous Graphs",
+      "year": 2022,
+      "citedBy": 87,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2022 - ICPC - Learning to Represent Programs with Heterogeneous Graphs.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9461797623113879358",
+      "award": null,
+      "note": null,
+      "venueShort": "ICPC",
+      "venueFull": "Proceedings of the 30th ACM/IEEE International Conference on Program Comprehension",
+      "location": {
+        "city": "Pittsburgh",
+        "country": "PA, USA"
+      },
+      "dateStart": {
+        "month": "May",
+        "day": 16
+      },
+      "dateEnd": {
+        "month": "May",
+        "day": 17
+      },
+      "eventYear": 2022,
+      "pages": null
+    },
+    {
+      "id": "emse-2022-a-unified-multi-task-learning",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Fang Liu",
+        "Ge Li",
+        "Bolin Wei",
+        "Xin Xia",
+        "Zhiyi Fu",
+        "Zhi Jin"
+      ],
+      "title": "A Unified Multi-task Learning Model for AST-level and Token-level Code Completion",
+      "year": 2022,
+      "citedBy": 41,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2022 - ESE - A Unified Multi-task Learning Model for AST-level and Token-level Code Completion.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11846517911104568572",
+      "award": null,
+      "note": null,
+      "venueShort": "EMSE",
+      "venueFull": "Empirical Software Engineering",
+      "volume": 27,
+      "issue": 4,
+      "articleNumber": null,
+      "pubDate": {
+        "month": "Apr",
+        "day": 18,
+        "year": 2022
+      },
+      "pages": {
+        "start": 1,
+        "end": 38
+      },
+      "pagesText": null
+    },
+    {
+      "id": "tosem-2022-towards-robustness-of-deep",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Huangzhao Zhang",
+        "Zhiyi Fu",
+        "Ge Li",
+        "Lei Ma",
+        "Zhehao Zhao",
+        "Hua’an Yang",
+        "Yizhe Sun",
+        "Yang Liu",
+        "Zhi Jin"
+      ],
+      "title": "Towards Robustness of Deep Program Processing Models—Detection, Estimation, and Enhancement",
+      "year": 2022,
+      "citedBy": 88,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2022 - TOSEM - Towards Robustness of Deep Program Processing Models—Detection, Estimation, and Enhancement.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8457527175958490683",
+      "award": null,
+      "note": null,
+      "venueShort": "TOSEM",
+      "venueFull": "ACM Transactions on Software Engineering and Methodology",
+      "volume": 31,
+      "issue": 3,
+      "articleNumber": null,
+      "pubDate": {
+        "month": "Apr",
+        "day": 9,
+        "year": 2022
+      },
+      "pages": {
+        "start": 1,
+        "end": 40
+      },
+      "pagesText": null
+    },
+    {
+      "id": "tse-2022-deep-learning-based-program",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Hui Liu",
+        "Mingzhu Shen",
+        "Jiaqi Zhu",
+        "Nan Niu",
+        "Ge Li",
+        "Lu Zhang"
+      ],
+      "title": "Deep Learning Based Program Generation From Requirements Text: Are We There Yet?",
+      "year": 2022,
+      "citedBy": 70,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2022 - TSE - Deep Learning Based Program Generation From Requirements Text- Are We There Yet.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15942882124174282295",
+      "award": null,
+      "note": null,
+      "venueShort": "TSE",
+      "venueFull": "IEEE Transactions on Software Engineering",
+      "volume": 48,
+      "issue": 4,
+      "articleNumber": null,
+      "pubDate": {
+        "month": "Apr",
+        "day": 1,
+        "year": 2022
+      },
+      "pages": null,
+      "pagesText": null
+    },
+    {
+      "id": "jss-2022-precise-learning-of-source",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Zhehao Zhao",
+        "Bo Yang",
+        "Ge Li",
+        "Huai Liu",
+        "Zhi Jin"
+      ],
+      "title": "Precise Learning of Source Code Contextual Semantics via Hierarchical Dependence Structure and Graph Attention Networks",
+      "year": 2022,
+      "citedBy": 39,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2022 - JSS - Precise Learning of Source Code Contextual Semantics via Hierarchical Dependence Structure and Graph Attention Networks.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4712801956783769417",
+      "award": null,
+      "note": null,
+      "venueShort": "JSS",
+      "venueFull": "Journal of Systems and Software",
+      "volume": 184,
+      "issue": null,
+      "articleNumber": null,
+      "pubDate": {
+        "month": "Feb",
+        "day": null,
+        "year": 2022
+      },
+      "pages": null,
+      "pagesText": null
+    },
+    {
+      "id": "neurips-2021-codexglue-a-machine-learning",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Shuai Lu",
+        "Daya Guo",
+        "Shuo Ren",
+        "Junjie Huang",
+        "Alexey Svyatkovskiy",
+        "Ambrosio Blanco",
+        "Colin Clement",
+        "Dawn Drain",
+        "Daxin Jiang",
+        "Duyu Tang",
+        "Ge Li",
+        "Lidong Zhou",
+        "Linjun Shou",
+        "Long Zhou",
+        "Michele Tufano",
+        "Ming Gong",
+        "Ming Zhou",
+        "Nan Duan",
+        "Neel Sundaresan",
+        "Shao Kun Deng",
+        "Shengyu Fu",
+        "Shujie Liu"
+      ],
+      "title": "Codexglue: A Machine Learning Benchmark Dataset for Code Understanding and Generation",
+      "year": 2021,
+      "citedBy": 1185,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2021 - NeurIPS - CodeXGLUE - A Machine Learning Benchmark Dataset for Code Understanding and Generation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3348257757676709546",
+      "award": null,
+      "note": null,
+      "venueShort": "NeurIPS",
+      "venueFull": "Proceedings of the 35th Conference on Neural Information Processing Systems",
+      "location": {
+        "city": "Online"
+      },
+      "dateStart": {
+        "month": "Dec",
+        "day": 6
+      },
+      "dateEnd": {
+        "month": "Dec",
+        "day": 14
+      },
+      "eventYear": 2021,
+      "pages": null
+    },
+    {
+      "id": "neurips-2021-integrating-tree-path",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Han Peng",
+        "Ge Li",
+        "Wenhan Wang",
+        "Yunfei Zhao",
+        "Zhi Jin"
+      ],
+      "title": "Integrating Tree Path in Transformer for Code Representation",
+      "year": 2021,
+      "citedBy": 72,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2021 - NeurIPS - Integrating Tree Path in Transformer for Code Representation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12295099562232904052",
+      "award": null,
+      "note": null,
+      "venueShort": "NeurIPS",
+      "venueFull": "Proceedings of the 35th Conference on Neural Information Processing Systems",
+      "location": {
+        "city": "Online"
+      },
+      "dateStart": {
+        "month": "Dec",
+        "day": 6
+      },
+      "dateEnd": {
+        "month": "Dec",
+        "day": 14
+      },
+      "eventYear": 2021,
+      "pages": null
+    },
+    {
+      "id": "ase-2021-editsum-a-retrieve-and-edit-framework",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Jia Allen Li",
+        "Yongmin Li",
+        "Ge Li",
+        "Xing Hu",
+        "Xin Xia",
+        "Zhi Jin"
+      ],
+      "title": "EDITSUM: A Retrieve-and-Edit Framework for Source Code Summarization",
+      "year": 2021,
+      "citedBy": 101,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2021 - ASE - EDITSUM- A Retrieve-and-Edit Framework for Source Code Summarization.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8325896291214985583",
+      "award": null,
+      "note": null,
+      "venueShort": "ASE",
+      "venueFull": "Proceedings of the 36th IEEE/ACM International Conference on Automated Software Engineering",
+      "location": {
+        "city": "Melbourne",
+        "country": "Australia"
+      },
+      "dateStart": {
+        "month": "Nov",
+        "day": 14
+      },
+      "dateEnd": {
+        "month": "Nov",
+        "day": 20
+      },
+      "eventYear": 2021,
+      "pages": null
+    },
+    {
+      "id": "ijcai-2020-nlocalsat-boosting-local-search",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Wenjie Zhang",
+        "Zeyu Sun",
+        "Qihao Zhu",
+        "Ge Li",
+        "Shaowei Cai",
+        "Yingfei Xiong",
+        "Lu Zhang"
+      ],
+      "title": "NLocalSAT: Boosting Local Search with Solution Prediction",
+      "year": 2020,
+      "citedBy": null,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2020 - IJCAI - NLocalSAT- Boosting Local Search with Solution Prediction.pdf",
+      "scholarUrl": null,
+      "award": null,
+      "note": null,
+      "venueShort": "IJCAI",
+      "venueFull": "Proceedings of the 29th International Joint Conference on Artificial Intelligence",
+      "location": {
+        "city": "Yokohama",
+        "country": "Japan"
+      },
+      "dateStart": {
+        "month": "Jan",
+        "day": 7
+      },
+      "dateEnd": {
+        "month": "Jan",
+        "day": 15
+      },
+      "eventYear": 2021,
+      "pages": {
+        "start": 1177,
+        "end": 1183
+      }
+    },
+    {
+      "id": "ase-2020-multi-task-learning-based-pre-trained",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Fang Liu",
+        "Ge Li",
+        "Yunfei Zhao",
+        "Zhi Jin"
+      ],
+      "title": "Multi-task Learning based Pre-trained Language Model for Code Completion",
+      "year": 2020,
+      "citedBy": 283,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2020 - ASE - Multi-task Learning based Pre-trained Language Model for Code Completion.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14779311098625894145",
+      "award": null,
+      "note": null,
+      "venueShort": "ASE",
+      "venueFull": "Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering",
+      "location": {
+        "city": "Melbourne",
+        "country": "Australia"
+      },
+      "dateStart": {
+        "month": "Sep",
+        "day": 21
+      },
+      "dateEnd": {
+        "month": "Sep",
+        "day": 25
+      },
+      "eventYear": 2020,
+      "pages": null
+    },
+    {
+      "id": "ase-2020-retrieve-and-refine-exemplar-based",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Bolin Wei",
+        "Yongmin Li",
+        "Ge Li",
+        "Xin Xia",
+        "Zhi Jin"
+      ],
+      "title": "Retrieve and Refine: Exemplar-based Neural Comment Generation",
+      "year": 2020,
+      "citedBy": 162,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2020 - ASE - Retrieve and Refine- Exemplar-based Neural Comment Generation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10050087712743088078",
+      "award": null,
+      "note": null,
+      "venueShort": "ASE",
+      "venueFull": "Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering",
+      "location": {
+        "city": "Melbourne",
+        "country": "Australia"
+      },
+      "dateStart": {
+        "month": "Sep",
+        "day": 21
+      },
+      "dateEnd": {
+        "month": "Sep",
+        "day": 25
+      },
+      "eventYear": 2020,
+      "pages": null
+    },
+    {
+      "id": "tosem-2020-modular-tree-network",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Wenhan Wang",
+        "Ge Li",
+        "Sijie Shen",
+        "Xin Xia",
+        "Zhi Jin"
+      ],
+      "title": "Modular Tree Network for Source Code Representation Learning",
+      "year": 2020,
+      "citedBy": 67,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2020 - TOSEM - Modular Tree Network for Source Code Representation Learning.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14746368152281960010",
+      "award": null,
+      "note": null,
+      "venueShort": "TOSEM",
+      "venueFull": "ACM Transactions on Software Engineering and Methodology",
+      "volume": 29,
+      "issue": 4,
+      "articleNumber": "Article 31",
+      "pubDate": {
+        "month": "Sep",
+        "day": null,
+        "year": 2020
+      },
+      "pages": null,
+      "pagesText": null
+    },
+    {
+      "id": "icpc-2020-a-self-attentional-neural-architecture",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Fang Liu",
+        "Ge Li",
+        "Xin Xia",
+        "Bolin Wei",
+        "Zhi Jin"
+      ],
+      "title": "A Self-Attentional Neural Architecture for Code Completion with Multi-Task Learning",
+      "year": 2020,
+      "citedBy": 105,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2020 - ICPC - A Self-Attentional Neural Architecture for Code Completion with Multi-Task Learning.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6413177386307839692",
+      "award": null,
+      "note": null,
+      "venueShort": "ICPC",
+      "venueFull": "Proceedings of the 28th IEEE/ACM International Conference on Program Comprehension",
+      "location": {
+        "city": "Seoul",
+        "country": "South Korea"
+      },
+      "dateStart": {
+        "month": "May",
+        "day": 23
+      },
+      "dateEnd": {
+        "month": "May",
+        "day": 24
+      },
+      "eventYear": 2020,
+      "pages": {
+        "start": 37,
+        "end": 47
+      }
+    },
+    {
+      "id": "saner-2020-detecting-code-clones",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Wenhan Wang",
+        "Ge Li",
+        "Bo Ma",
+        "Xin Xia",
+        "Zhi Jin"
+      ],
+      "title": "Detecting Code Clones with Graph Neural Network and Flow-Augmented Abstract Syntax Tree",
+      "year": 2020,
+      "citedBy": 422,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2020 - SANER - Detecting Code Clones with Graph Neural Network and Flow-Augmented Abstract Syntax Tree.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13251756890009440165",
+      "award": null,
+      "note": null,
+      "venueShort": "SANER",
+      "venueFull": "Proceedings of the 27th IEEE International Conference on Software Analysis, Evolution and Reengineering",
+      "location": {
+        "city": "London",
+        "country": "Ontario, Canada"
+      },
+      "dateStart": {
+        "month": "Feb",
+        "day": 18
+      },
+      "dateEnd": {
+        "month": "Feb",
+        "day": 21
+      },
+      "eventYear": 2020,
+      "pages": null
+    },
+    {
+      "id": "aaai-2020-generating-adversarial-examples",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Huangzhao Zhang",
+        "Zhuo Li",
+        "Ge Li",
+        "Lei Ma",
+        "Yang Liu",
+        "Zhi Jin"
+      ],
+      "title": "Generating Adversarial Examples for Holding Robustness of Source Code Processing Models",
+      "year": 2020,
+      "citedBy": 173,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2020 - AAAI - Generating Adversarial Examples for Holding Robustness of Source Code Processing Models.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13178546501340244560",
+      "award": null,
+      "note": null,
+      "venueShort": "AAAI",
+      "venueFull": "Proceedings of the 34th AAAI Conference on Artificial Intelligence",
+      "location": {
+        "city": "New York",
+        "country": "USA"
+      },
+      "dateStart": {
+        "month": "Feb",
+        "day": 7
+      },
+      "dateEnd": {
+        "month": "Feb",
+        "day": 12
+      },
+      "eventYear": 2020,
+      "pages": null
+    },
+    {
+      "id": "neurips-2019-code-generation",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Bolin Wei",
+        "Ge Li",
+        "Xin Xia",
+        "Zhiyi Fu",
+        "Zhi Jin"
+      ],
+      "title": "Code Generation as a Dual Task of Code Summarization",
+      "year": 2019,
+      "citedBy": 291,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2019 - NeurIPS - Code Generation as a Dual Task of Code Summarization.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14746121163037489756",
+      "award": null,
+      "note": null,
+      "venueShort": "NeurIPS",
+      "venueFull": "Proceedings of the 33rd Conference on Neural Information Processing Systems",
+      "location": {
+        "city": "Vancouver",
+        "country": "Canada"
+      },
+      "dateStart": {
+        "month": "Dec",
+        "day": 8
+      },
+      "dateEnd": {
+        "month": "Dec",
+        "day": 14
+      },
+      "eventYear": 2019,
+      "pages": {
+        "start": 6563,
+        "end": 6573
+      }
+    },
+    {
+      "id": "icassp-2019-why-do-neural-dialog",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Bolin Wei",
+        "Shuai Lu",
+        "Lili Mou",
+        "Hao Zhou",
+        "Pascal Poupart",
+        "Ge Li",
+        "Zhi Jin"
+      ],
+      "title": "Why Do Neural Dialog Systems Generate Short and Meaningless Replies? a Comparison between Dialog and Translation",
+      "year": 2019,
+      "citedBy": 39,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2019 - ICASSP - Why Do Neural Dialog Systems Generate Short and Meaningless Replies - a Comparison between Dialog and Translation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13515532830315971365",
+      "award": null,
+      "note": null,
+      "venueShort": "ICASSP",
+      "venueFull": "Proceedings of 2019 IEEE International Conference on Acoustics, Speech and Signal Processing",
+      "location": {
+        "city": "Brighton",
+        "country": "UK"
+      },
+      "dateStart": {
+        "month": "May",
+        "day": 12
+      },
+      "dateEnd": {
+        "month": "May",
+        "day": 17
+      },
+      "eventYear": 2019,
+      "pages": {
+        "start": 7290,
+        "end": 7294
+      }
+    },
+    {
+      "id": "compsac-2019-deep-autocoder-learning-to-complete",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Xing Hu",
+        "Rui Men",
+        "Ge Li",
+        "Zhi Jin"
+      ],
+      "title": "Deep-AutoCoder: Learning to Complete Code Precisely with Induced Code Tokens",
+      "year": 2019,
+      "citedBy": 12,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2019 - COMPSAC - Deep-AutoCoder- Learning to Complete Code Precisely with Induced Code Tokens.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7058800976321580272",
+      "award": null,
+      "note": null,
+      "venueShort": "COMPSAC",
+      "venueFull": "Proceedings of 2019 IEEE 43rd Annual Computer Software and Applications Conference",
+      "location": {
+        "city": "Milwaukee",
+        "country": "Wisconsin, USA"
+      },
+      "dateStart": {
+        "month": "Jul",
+        "day": 15
+      },
+      "dateEnd": {
+        "month": "Jul",
+        "day": 19
+      },
+      "eventYear": 2019,
+      "pages": null
+    },
+    {
+      "id": "emse-2019-deep-code-comment-generation",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Xing Hu",
+        "Ge Li",
+        "Xin Xia",
+        "David Lo",
+        "Zhi Jin"
+      ],
+      "title": "Deep Code Comment Generation with Hybrid Lexical and Syntactical Information",
+      "year": 2019,
+      "citedBy": 359,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2019 - EMSE - Deep Code Comment Generation with Hybrid Lexical and Syntactical Information.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2492793035371583114",
+      "award": null,
+      "note": null,
+      "venueShort": "EMSE",
+      "venueFull": "Empirical Software Engineering",
+      "volume": 25,
+      "issue": 3,
+      "articleNumber": null,
+      "pubDate": {
+        "month": "Jun",
+        "day": 18,
+        "year": 2019
+      },
+      "pages": {
+        "start": 2179,
+        "end": 2217
+      },
+      "pagesText": null
+    },
+    {
+      "id": "icpc-2019-neural-detection-of-semantic",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Hao Yu",
+        "Wing Lam",
+        "Long Chen",
+        "Ge Li",
+        "Tao Xie",
+        "Qianxiang Wang"
+      ],
+      "title": "Neural Detection of Semantic Code Clones via Tree-based Convolution",
+      "year": 2019,
+      "citedBy": 190,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2019 - ICPC - Neural Detection of Semantic Code Clones via Tree-based Convolution.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2966840824411376844",
+      "award": null,
+      "note": null,
+      "venueShort": "ICPC",
+      "venueFull": "Proceedings of the 27th International Conference on Program Comprehension",
+      "location": {
+        "city": "Montreal",
+        "country": "QC, Canada"
+      },
+      "dateStart": {
+        "month": "May",
+        "day": 25
+      },
+      "dateEnd": {
+        "month": "May",
+        "day": 31
+      },
+      "eventYear": 2019,
+      "pages": {
+        "start": 70,
+        "end": 80
+      }
+    },
+    {
+      "id": "aaai-2019-a-grammar-based-structural-cnn",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Zeyu Sun",
+        "Qihao Zhu",
+        "Lili Mou",
+        "Yingfei Xiong",
+        "Ge Li",
+        "Lu Zhang"
+      ],
+      "title": "A Grammar-Based Structural CNN Decoder for Code Generation",
+      "year": 2019,
+      "citedBy": 171,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2019 - AAAI - A Grammar-Based Structural CNN Decoder for Code Generation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9578481842072162675",
+      "award": null,
+      "note": null,
+      "venueShort": "AAAI",
+      "venueFull": "Proceedings of the 33rd AAAI Conference on Artificial Intelligence",
+      "location": {
+        "city": "Honolulu",
+        "country": "Hawaii, USA"
+      },
+      "dateStart": {
+        "month": "Jan",
+        "day": 27
+      },
+      "dateEnd": {
+        "month": "Feb",
+        "day": 1
+      },
+      "eventYear": 2019,
+      "pages": null
+    },
+    {
+      "id": "icpc-2018-unsupervised-deep-bug-report",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Xiaochen Li",
+        "He Jiang",
+        "Dong Liu",
+        "Zhilei Ren",
+        "Ge Li"
+      ],
+      "title": "Unsupervised Deep Bug Report Summarization",
+      "year": 2018,
+      "citedBy": 84,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2018 - ICPC - Unsupervised Deep Bug Report Summarization.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7312637005631604513",
+      "award": null,
+      "note": null,
+      "venueShort": "ICPC",
+      "venueFull": "Proceedings of the 26th Conference on Program Comprehension",
+      "location": null,
+      "dateStart": null,
+      "dateEnd": null,
+      "eventYear": 2018,
+      "pages": {
+        "start": 144,
+        "end": 155
+      }
+    },
+    {
+      "id": "ijcai-2018-summarizing-source-code",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Xing Hu",
+        "Ge Li",
+        "Xin Xia",
+        "David Lo",
+        "Shuai Lu",
+        "Zhi Jin"
+      ],
+      "title": "Summarizing Source Code with Transferred API Knowledge",
+      "year": 2018,
+      "citedBy": 402,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2018 - IJCAI - Summarizing Source Code with Transferred API Knowledge.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7957314078581455853",
+      "award": null,
+      "note": null,
+      "venueShort": "IJCAI",
+      "venueFull": "Proceedings of the 27th International Joint Conference on Artificial Intelligence",
+      "location": {
+        "city": "Stockholm",
+        "country": "Sweden"
+      },
+      "dateStart": {
+        "month": "Jul",
+        "day": 13
+      },
+      "dateEnd": {
+        "month": "Jul",
+        "day": 19
+      },
+      "eventYear": 2018,
+      "pages": {
+        "start": 2269,
+        "end": 2275
+      }
+    },
+    {
+      "id": "icpc-2018-deep-code-comment-generation",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Xing Hu",
+        "Ge Li",
+        "Xia Xin",
+        "David Lo",
+        "Zhi Jin"
+      ],
+      "title": "Deep Code Comment Generation",
+      "year": 2018,
+      "citedBy": 989,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2018 - ICPC - Deep Code Comment Generation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1082840393834763657,13435199831435513765",
+      "award": "ACM SIGSOFT Distinguished Paper Award",
+      "note": null,
+      "venueShort": "ICPC",
+      "venueFull": "Proceedings of IEEE/ACM 26th International Conference on Program Comprehension",
+      "location": {
+        "city": "Gothenburg",
+        "country": "Sweden"
+      },
+      "dateStart": {
+        "month": "May",
+        "day": 27
+      },
+      "dateEnd": {
+        "month": "May",
+        "day": 28
+      },
+      "eventYear": 2018,
+      "pages": {
+        "start": 200,
+        "end": 210
+      }
+    },
+    {
+      "id": "ksem-2017-learning-sparse-overcomplete-word",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yunchuan Chen",
+        "Ge Li",
+        "Zhi Jin"
+      ],
+      "title": "Learning Sparse Overcomplete Word Vectors without Intermediate Dense Representations",
+      "year": 2017,
+      "citedBy": 5,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2017 - KSEM - Learning Sparse Overcomplete Word Vectors without Intermediate Dense Representations.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11064361183778319568",
+      "award": null,
+      "note": null,
+      "venueShort": "KSEM",
+      "venueFull": "Proceedings of the 10th International Conference on Knowledge Science, Engineering and Management",
+      "location": {
+        "city": "Melbourne",
+        "country": "Australia"
+      },
+      "dateStart": {
+        "month": "Aug",
+        "day": 19
+      },
+      "dateEnd": {
+        "month": "Aug",
+        "day": 20
+      },
+      "eventYear": 2017,
+      "pages": null
+    },
+    {
+      "id": "ksem-2017-learning-to-infer-api",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yangyang Lu",
+        "Ge Li",
+        "Zelong hao",
+        "Lingfeng Wen",
+        "Zhi Jin"
+      ],
+      "title": "Learning To Infer API Mappings From API Documents",
+      "year": 2017,
+      "citedBy": 18,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2017 - KSEM - Learning To Infer API Mappings From API Documents.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2075918345690134603",
+      "award": null,
+      "note": null,
+      "venueShort": "KSEM",
+      "venueFull": "Proceedings of the 10th International Conference on Knowledge Science, Engineering and Management",
+      "location": {
+        "city": "Melbourne",
+        "country": "Australia"
+      },
+      "dateStart": {
+        "month": "Aug",
+        "day": 19
+      },
+      "dateEnd": {
+        "month": "Aug",
+        "day": 20
+      },
+      "eventYear": 2017,
+      "pages": null
+    },
+    {
+      "id": "ksem-2017-improved-knowledge-base-completion",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Wenhao Huang",
+        "Ge Li",
+        "Zhi Jin"
+      ],
+      "title": "Improved Knowledge Base Completion by the Path-Augmented TransR Model",
+      "year": 2017,
+      "citedBy": 19,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2017 - KSEM - Improved Knowledge Base Completion by the Path-Augmented TransR Model.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1779453996046869830",
+      "award": null,
+      "note": null,
+      "venueShort": "KSEM",
+      "venueFull": "Proceedings of the 10th International Conference on Knowledge Science, Engineering and Management",
+      "location": {
+        "city": "Melbourne",
+        "country": "Australia"
+      },
+      "dateStart": {
+        "month": "Aug",
+        "day": 19
+      },
+      "dateEnd": {
+        "month": "Aug",
+        "day": 20
+      },
+      "eventYear": 2017,
+      "pages": null
+    },
+    {
+      "id": "coling-2016-sequence-to-backward",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Lili Mou",
+        "Yiping Song",
+        "Rui Yan",
+        "Ge Li",
+        "Lu Zhang",
+        "Zhi Jin"
+      ],
+      "title": "Sequence to Backward and Forward Sequences: A Content-Introducing Approach to Generative Short-Text Conversation",
+      "year": 2016,
+      "citedBy": 304,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2016 - COLING - Sequence to Backward and Forward Sequences- A Content-Introducing Approach to Generative Short-Text Conversation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15322306336642377359",
+      "award": null,
+      "note": null,
+      "venueShort": "COLING",
+      "venueFull": "Proceedings of the 26th International Conference on Computational Linguistics",
+      "location": {
+        "city": "Osaka",
+        "country": "Japan"
+      },
+      "dateStart": {
+        "month": "Dec",
+        "day": 11
+      },
+      "dateEnd": {
+        "month": "Dec",
+        "day": 17
+      },
+      "eventYear": 2016,
+      "pages": {
+        "start": 3349,
+        "end": 3358
+      }
+    },
+    {
+      "id": "coling-2016-improved-relation-classification",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yan Xu",
+        "Ran Jia",
+        "Lili Mou",
+        "Ge Li",
+        "Yunchuan Chen",
+        "Yangyang Lu",
+        "Zhi Jin"
+      ],
+      "title": "Improved Relation Classification by Deep Recurrent Neural Networks with Data Augmentation",
+      "year": 2016,
+      "citedBy": 303,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2016 - COLING - Improved Relation Classification by Deep Recurrent Neural Networks with Data Augmentation.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16373480206076190875",
+      "award": null,
+      "note": null,
+      "venueShort": "COLING",
+      "venueFull": "Proceedings of the 26th International Conference on Computational Linguistics",
+      "location": {
+        "city": "Osaka",
+        "country": "Japan"
+      },
+      "dateStart": {
+        "month": "Dec",
+        "day": 11
+      },
+      "dateEnd": {
+        "month": "Dec",
+        "day": 17
+      },
+      "eventYear": 2016,
+      "pages": {
+        "start": 1461,
+        "end": 1470
+      }
+    },
+    {
+      "id": "emnlp-2016-how-transferable-are-neural",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Lili Mou",
+        "Zhao Meng",
+        "Rui Yan",
+        "Ge Li",
+        "Yan Xu",
+        "Lu Zhang",
+        "Zhi Jin"
+      ],
+      "title": "How Transferable are Neural Networks in NLP Applications?",
+      "year": 2016,
+      "citedBy": 394,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2016 - EMNLP - How Transferable are Neural Networks in NLP Applications.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7464971160910138225",
+      "award": null,
+      "note": null,
+      "venueShort": "EMNLP",
+      "venueFull": "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing",
+      "location": {
+        "city": "Austin",
+        "country": "Texas"
+      },
+      "dateStart": {
+        "month": "Nov",
+        "day": 1
+      },
+      "dateEnd": {
+        "month": "Nov",
+        "day": 5
+      },
+      "eventYear": 2016,
+      "pages": {
+        "start": 479,
+        "end": 489
+      }
+    },
+    {
+      "id": "acl-2016-compressing-neural-language-models",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yunchuan Chen",
+        "Lili Mou",
+        "Yan Xu",
+        "Ge Li",
+        "Zhi Jin"
+      ],
+      "title": "Compressing Neural Language Models by Sparse Word Representations",
+      "year": 2016,
+      "citedBy": 35,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2016 - ACL - Compressing Neural Language Models by Sparse Word Representations.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=782394326508452578",
+      "award": null,
+      "note": null,
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "Berlin",
+        "country": "Germany"
+      },
+      "dateStart": {
+        "month": "Aug",
+        "day": 7
+      },
+      "dateEnd": {
+        "month": "Aug",
+        "day": 12
+      },
+      "eventYear": 2016,
+      "pages": {
+        "start": 226,
+        "end": 235
+      }
+    },
+    {
+      "id": "acl-2016-natural-language-inference",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Lili Mou",
+        "Rui Men",
+        "Ge Li",
+        "Yan Xu",
+        "Lu Zhang",
+        "Rui Yan",
+        "Zhi Jin"
+      ],
+      "title": "Natural Language Inference by Tree-Based Convolution and Heuristic Matching",
+      "year": 2016,
+      "citedBy": 439,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2016 - ACL - Natural Language Inference by Tree-Based Convolution and Heuristic Matching.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13547166211709959516",
+      "award": null,
+      "note": null,
+      "venueShort": "ACL",
+      "venueFull": "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics",
+      "location": {
+        "city": "Berlin",
+        "country": "Germany"
+      },
+      "dateStart": {
+        "month": "Aug",
+        "day": 7
+      },
+      "dateEnd": {
+        "month": "Aug",
+        "day": 12
+      },
+      "eventYear": 2016,
+      "pages": {
+        "start": 130,
+        "end": 136
+      }
+    },
+    {
+      "id": "aaai-2016-convolutional-neural-networks-over",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Lili Mou",
+        "Ge Li",
+        "Lu Zhang",
+        "Tao Wang",
+        "Zhi Jin"
+      ],
+      "title": "Convolutional Neural Networks over Tree Structures for Programming Language Processing",
+      "year": 2016,
+      "citedBy": 1217,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2016 - AAAI - Convolutional Neural Networks over Tree Structures for Programming Language Processing.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12324937124370515795,13202263128577537146,12241704685775538714",
+      "award": null,
+      "note": null,
+      "venueShort": "AAAI",
+      "venueFull": "Proceedings of 2016 AAAI Conference on Artificial Intelligence",
+      "location": {
+        "city": "Phoenix",
+        "country": "USA"
+      },
+      "dateStart": {
+        "month": "Jan",
+        "day": 12
+      },
+      "dateEnd": {
+        "month": "Jan",
+        "day": 18
+      },
+      "eventYear": 2016,
+      "pages": {
+        "start": 1287,
+        "end": 1293
+      }
+    },
+    {
+      "id": "cikm-2016-distilling-word-embeddings",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Lili Mou",
+        "Ran Jia",
+        "Yan Xu",
+        "Ge Li",
+        "Lu Zhang",
+        "Zhi Jin"
+      ],
+      "title": "Distilling Word Embeddings: An Encoding Approach",
+      "year": 2016,
+      "citedBy": 31,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2016 - CIKM - Distilling Word Embeddings- An Encoding Approach.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1965175051734755839",
+      "award": null,
+      "note": null,
+      "venueShort": "CIKM",
+      "venueFull": "Proceedings of the 25th ACM International Conference on Information and Knowledge Management",
+      "location": {
+        "city": "Indianapolis",
+        "country": "USA"
+      },
+      "dateStart": {
+        "month": "Oct",
+        "day": 24
+      },
+      "dateEnd": {
+        "month": "Oct",
+        "day": 28
+      },
+      "eventYear": 2016,
+      "pages": null
+    },
+    {
+      "id": "ksem-2016-context-aware-tree-based-convolutional-neural",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Zhao Meng",
+        "Lili Mou",
+        "Ge Li",
+        "Zhi Jin"
+      ],
+      "title": "Context-Aware Tree-Based Convolutional Neural Networks for Natural Language Inference",
+      "year": 2016,
+      "citedBy": 2,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2016 - KSEM - Context-Aware Tree-Based Convolutional Neural Networks for Natural Language Inference.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6133281504533346090",
+      "award": null,
+      "note": null,
+      "venueShort": "KSEM",
+      "venueFull": "Proceedings of 9th International Conference on Knowledge Science, Engineering and Management",
+      "location": {
+        "city": "Passau",
+        "country": "Germany"
+      },
+      "dateStart": {
+        "month": "Oct",
+        "day": 4
+      },
+      "dateEnd": {
+        "month": "Oct",
+        "day": 8
+      },
+      "eventYear": 2016,
+      "pages": {
+        "start": 515,
+        "end": 526
+      }
+    },
+    {
+      "id": "ksem-2016-learning-embeddings-of-api",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yangyang Lu",
+        "Ge Li",
+        "Rui Miao",
+        "Zhi Jin"
+      ],
+      "title": "Learning Embeddings Of API Tokens To Facilitate Deep Learning Based Program Processing",
+      "year": 2016,
+      "citedBy": 4,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2016 - KSEM - Learning Embeddings Of API Tokens To Facilitate Deep Learning Based Program Processing.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11569005228340381864",
+      "award": null,
+      "note": null,
+      "venueShort": "KSEM",
+      "venueFull": "Proceedings of 9th International Conference on Knowledge Science, Engineering and Management",
+      "location": {
+        "city": "Passau",
+        "country": "Germany"
+      },
+      "dateStart": {
+        "month": "Oct",
+        "day": 4
+      },
+      "dateEnd": {
+        "month": "Oct",
+        "day": 8
+      },
+      "eventYear": 2016,
+      "pages": {
+        "start": 527,
+        "end": 539
+      }
+    },
+    {
+      "id": "emnlp-2015-a-comparative-study",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Hao Peng",
+        "Lili Mou",
+        "Ge Li",
+        "Yan Xu",
+        "Lu Zhang",
+        "Zhi Jin"
+      ],
+      "title": "A Comparative Study on Regularization Strategies for Embedding-based Neural Networks",
+      "year": 2015,
+      "citedBy": 41,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2015 - EMNLP - A Comparative Study on Regularization Strategies for Embedding-based Neural Networks.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8996515888398655023",
+      "award": null,
+      "note": null,
+      "venueShort": "EMNLP",
+      "venueFull": "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing",
+      "location": {
+        "city": "Lisboa",
+        "country": "Portugal"
+      },
+      "dateStart": {
+        "month": "Sep",
+        "day": 17
+      },
+      "dateEnd": {
+        "month": "Sep",
+        "day": 21
+      },
+      "eventYear": 2015,
+      "pages": null
+    },
+    {
+      "id": "ksem-2015-building-program-vector-representations",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Hao Peng",
+        "Lili Mou",
+        "Ge Li",
+        "Yuxuan Liu",
+        "Lu Zhang",
+        "Zhi Jin"
+      ],
+      "title": "Building Program Vector Representations for Deep Learning",
+      "year": 2015,
+      "citedBy": 229,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2015 - KSEM - Building Program Vector Representations for Deep Learning.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17453886396576210217,11334042996923277451",
+      "award": null,
+      "note": null,
+      "venueShort": "KSEM",
+      "venueFull": "Proceedings of the 8th International Conference on Knowledge Science, Engineering and Management",
+      "location": {
+        "city": "Chongqing",
+        "country": "China"
+      },
+      "dateStart": {
+        "month": "Oct",
+        "day": 28
+      },
+      "dateEnd": {
+        "month": "Oct",
+        "day": 30
+      },
+      "eventYear": 2015,
+      "pages": {
+        "start": 547,
+        "end": 553
+      }
+    },
+    {
+      "id": "emnlp-2015-discriminative-neural-sentence-modeling",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Lili Mou",
+        "Hao Peng",
+        "Ge Li",
+        "Yan Xu",
+        "Lu Zhang",
+        "Zhi Jin"
+      ],
+      "title": "Discriminative Neural Sentence Modeling by Tree-Based Convolution",
+      "year": 2015,
+      "citedBy": 161,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2015 - EMNLP - Discriminative Neural Sentence Modeling by Tree-Based Convolution.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11792353655532335112",
+      "award": null,
+      "note": null,
+      "venueShort": "EMNLP",
+      "venueFull": "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing",
+      "location": {
+        "city": "Lisbon",
+        "country": "Portugal"
+      },
+      "dateStart": {
+        "month": "Sep",
+        "day": 17
+      },
+      "dateEnd": {
+        "month": "Sep",
+        "day": 21
+      },
+      "eventYear": 2015,
+      "pages": {
+        "start": 2315,
+        "end": 2325
+      }
+    },
+    {
+      "id": "emnlp-2015-classifying-relations-via-long",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Yan Xu",
+        "Lili Mou",
+        "Ge Li",
+        "Lu Zhang",
+        "Zhi Jin"
+      ],
+      "title": "Classifying Relations via Long Short Term Memory Networks along Shortest Dependency Paths",
+      "year": 2015,
+      "citedBy": 915,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2015 - EMNLP - Classifying Relations via Long Short Term Memory Networks along Shortest Dependency Paths.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7434923510943166052,10712477119633134480",
+      "award": null,
+      "note": null,
+      "venueShort": "EMNLP",
+      "venueFull": "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing",
+      "location": {
+        "city": "Lisboa",
+        "country": "Portugal"
+      },
+      "dateStart": {
+        "month": "Sep",
+        "day": 17
+      },
+      "dateEnd": {
+        "month": "Sep",
+        "day": 21
+      },
+      "eventYear": 2015,
+      "pages": null
+    },
+    {
+      "id": "ksem-2014-verification-based-on-hyponymy",
+      "type": "conference",
+      "section": "Selected Publications",
+      "authors": [
+        "Lili Mou",
+        "Ge Li",
+        "Zhi Jin",
+        "Lu Zhang"
+      ],
+      "title": "Verification based on Hyponymy Hierarchical Characteristics for Web-based Hyponymy Discovery",
+      "year": 2014,
+      "citedBy": null,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2014 - KSEM - Verification based on Hyponymy Hierarchical Characteristics for Web-based Hyponymy Discovery.pdf",
+      "scholarUrl": null,
+      "award": null,
+      "note": null,
+      "venueShort": "KSEM",
+      "venueFull": "Proceedings of the International Conference on Knowledge Science, Engineering and Management",
+      "location": null,
+      "dateStart": null,
+      "dateEnd": null,
+      "eventYear": 2014,
+      "pages": {
+        "start": 81,
+        "end": 92
+      }
+    },
+    {
+      "id": "ijseke-2014-learning-non-taxonomy-relations",
+      "type": "journal",
+      "section": "Selected Publications",
+      "authors": [
+        "Yan Xu",
+        "Ge Li",
+        "Lili Mou",
+        "Yangyang Lu"
+      ],
+      "title": "Learning Non-taxonomy Relations on Demand for Ontology Extension",
+      "year": 2014,
+      "citedBy": 10,
+      "arxivId": null,
+      "arxivUrl": null,
+      "pdfUrl": "My Papers/2014 - IJSEKE - Learning Non-Taxonomic Relations on Demand for Ontology Extension.pdf",
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8163187585123069639",
+      "award": null,
+      "note": null,
+      "venueShort": "IJSEKE",
+      "venueFull": "International Journal of Software Engineering and Knowledge Engineering",
+      "volume": 24,
+      "issue": 8,
+      "articleNumber": null,
+      "pubDate": {
+        "month": "Oct",
+        "day": null,
+        "year": 2014
+      },
+      "pages": {
+        "start": 1159,
+        "end": 1175
+      },
+      "pagesText": null
+    },
+    {
+      "id": "arxiv-1510-07211",
+      "type": "arxiv",
+      "section": "Basic Papers on Deep Learning based Code Processing",
+      "authors": [
+        "Lili Mou",
+        "Rui Men",
+        "Ge Li",
+        "Lu Zhang",
+        "Zhi Jin"
+      ],
+      "title": "On End-to-End Program Generation from User Intention by Deep Neural Networks",
+      "year": 2015,
+      "citedBy": 84,
+      "arxivId": "1510.07211",
+      "arxivUrl": "https://arxiv.org/abs/1510.07211",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5712048843366927900",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-1409-5718",
+      "type": "arxiv",
+      "section": "Basic Papers on Deep Learning based Code Processing",
+      "authors": [
+        "Lili Mou",
+        "Ge Li",
+        "Zhi Jin",
+        "Lu Zhang",
+        "Tao Wang"
+      ],
+      "title": "TBCNN: A Tree-Based Convolutional Neural Network for Programming Language Processing",
+      "year": 2014,
+      "citedBy": null,
+      "arxivId": "1409.5718",
+      "arxivUrl": "https://arxiv.org/abs/1409.5718",
+      "pdfUrl": null,
+      "scholarUrl": null,
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    },
+    {
+      "id": "arxiv-1409-3358",
+      "type": "arxiv",
+      "section": "Basic Papers on Deep Learning based Code Processing",
+      "authors": [
+        "Lili Mou",
+        "Ge Li",
+        "Yuxuan Liu",
+        "Hao Peng",
+        "Zhi Jin",
+        "Yan Xu",
+        "Lu Zhang"
+      ],
+      "title": "Building Program Vector Representations for Deep Learning",
+      "year": 2014,
+      "citedBy": 227,
+      "arxivId": "1409.3358",
+      "arxivUrl": "https://arxiv.org/abs/1409.3358",
+      "pdfUrl": null,
+      "scholarUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17453886396576210217,11334042996923277451",
+      "award": null,
+      "note": null,
+      "venue": "arXiv preprint"
+    }
+  ]
+}
